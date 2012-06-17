@@ -1,4 +1,6 @@
+add_lunch_combo cm_a10-userdebug
 add_lunch_combo cm_anzu-userdebug
+add_lunch_combo cm_blade-userdebug
 add_lunch_combo cm_captivatemtd-userdebug
 add_lunch_combo cm_coconut-userdebug
 add_lunch_combo cm_crespo-userdebug
