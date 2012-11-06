@@ -121,7 +121,6 @@ include vendor/cm/config/themes_common.mk
 
 # Required CM packages
 PRODUCT_PACKAGES += \
-    Camera \
     Development \
     LatinIME \
     SpareParts \
@@ -143,6 +142,7 @@ PRODUCT_PACKAGES += \
     Apollo
 #    CMUpdater
 #    CMWallpapers \
+#    Camera \
 
 # Extra tools in CM
 PRODUCT_PACKAGES += \
@@ -203,9 +203,9 @@ else
 endif
 
 ifdef CM_RELEASE
-    CM_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE)$(PRODUCT_VERSION_DEVICE_SPECIFIC)-$(CM_BUILD)
+    CM_VERSION := AOKP-$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE)$(PRODUCT_VERSION_DEVICE_SPECIFIC)-$(CM_BUILD)
 else
-    CM_VERSION := $(PRODUCT_VERSION_MAJOR)-$(shell date -u +%Y%m%d)-$(CM_BUILD)-Burst-JB-KANG$(CM_EXTRAVERSION)
+    CM_VERSION := AOKP-$(PRODUCT_VERSION_MAJOR)-$(shell date -u +%Y%m%d)-$(CM_BUILD)-Burst-JB-KANG$(CM_EXTRAVERSION)
 endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
