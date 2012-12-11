@@ -103,9 +103,9 @@ PRODUCT_COPY_FILES +=  \
     vendor/cm/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
 
 # Bring in camera effects
-PRODUCT_COPY_FILES +=  \
-    vendor/cm/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
-    vendor/cm/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
+# PRODUCT_COPY_FILES +=  \
+#    vendor/cm/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
+#    vendor/cm/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
@@ -124,7 +124,6 @@ include vendor/cm/config/themes_common.mk
 
 # Required CM packages
 PRODUCT_PACKAGES += \
-    Camera \
     Development \
     LatinIME \
     SpareParts \
@@ -132,8 +131,7 @@ PRODUCT_PACKAGES += \
     su
 
 # Optional CM packages
-PRODUCT_PACKAGES += \
-    VideoEditor \
+ PRODUCT_PACKAGES += \
     VoiceDialer \
     SoundRecorder \
     Basic
@@ -144,10 +142,14 @@ PRODUCT_PACKAGES += \
     DSPManager \
     libcyanogen-dsp \
     audio_effects.conf \
-    CMWallpapers \
     Apollo \
-    CMUpdater \
     CMFileManager
+
+#    Camera \
+#    VideoEditor \
+#    CMWallpapers \
+#    CMUpdater \
+
 
 # Extra tools in CM
 PRODUCT_PACKAGES += \
@@ -211,9 +213,9 @@ ifdef CM_RELEASE
     CM_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE)$(PRODUCT_VERSION_DEVICE_SPECIFIC)-$(CM_BUILD)
 else
     ifeq ($(PRODUCT_VERSION_MINOR),0)
-        CM_VERSION := $(PRODUCT_VERSION_MAJOR)-$(shell date -u +%Y%m%d)-$(CM_BUILDTYPE)-$(CM_BUILD)$(CM_EXTRAVERSION)
+        CM_VERSION := AOKPCM$(PRODUCT_VERSION_MAJOR)-$(shell date -u +%Y%m%d)-$(CM_BUILDTYPE)-$(CM_BUILD)$(CM_EXTRAVERSION)
     else
-        CM_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(shell date -u +%Y%m%d)-$(CM_BUILDTYPE)-$(CM_BUILD)$(CM_EXTRAVERSION)
+        CM_VERSION := AOKPCM$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(shell date -u +%Y%m%d)-$(CM_BUILD)-Burst-MR1-KANG$(CM_EXTRAVERSION)
     endif
 endif
 
