@@ -1,7 +1,7 @@
 PRODUCT_BRAND ?= cyanogenmod
 
 SUPERUSER_EMBEDDED := true
-SUPERUSER_PACKAGE_PREFIX := com.android.settings.cyanogenmod.superuser
+#SUPERUSER_PACKAGE_PREFIX := com.android.settings.cyanogenmod.superuser
 
 # To deal with CM9 specifications
 # TODO: remove once all devices have been switched
@@ -67,7 +67,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.wifi-watchlist=GoogleGuest \
     ro.setupwizard.enterprise_mode=1 \
     ro.com.android.dateformat=MM-dd-yyyy \
-    ro.com.android.dataroaming=false
+    ro.com.android.dataroaming=false \
+    windowsmgr.max_events_per_sec=240 \
+    ro.kernel.android.checkjni=0 \
+    persist.sys.root_access=3
+
 
 # Copy over the changelog to the device
 PRODUCT_COPY_FILES += \
@@ -103,13 +107,24 @@ PRODUCT_COPY_FILES +=  \
     vendor/cm/proprietary/Term.apk:system/app/Term.apk \
     vendor/cm/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
 
+# Installer
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/bin/persist.sh:install/bin/persist.sh \
+    vendor/cm/prebuilt/common/etc/persist.conf:system/etc/persist.conf
+
+# DPI Per APP
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/dpi/xhdpi.conf:system/etc/burstlam/properties.conf
+
+
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
-# Enable wireless Xbox 360 controller support
+# Enable Xbox 360 and Ps3 Controller support
 PRODUCT_COPY_FILES += \
-    frameworks/base/data/keyboards/Vendor_045e_Product_028e.kl:system/usr/keylayout/Vendor_045e_Product_0719.kl
+    frameworks/base/data/keyboards/Vendor_045e_Product_028e.kl:system/usr/keylayout/Vendor_045e_Product_0719.kl \
+    frameworks/base/data/keyboards/Vendor_054c_Product_0268.kl:system/usr/keylayout/Vendor_054c_Product_0268.kl
 
 # This is CM!
 PRODUCT_COPY_FILES += \
