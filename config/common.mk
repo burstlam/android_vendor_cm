@@ -116,6 +116,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/dpi/xhdpi.conf:system/etc/burstlam/properties.conf
 
+# Mokee PhoneLoc
+PRODUCT_COPY_FILES +=  \
+    vendor/cm/prebuilt/common/media/mokee-phoneloc.dat:system/etc/phoneloc.dat
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
