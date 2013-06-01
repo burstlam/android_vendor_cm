@@ -114,7 +114,7 @@ PRODUCT_COPY_FILES += \
 
 # DPI Per APP
 PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/dpi/xhdpi.conf:system/etc/burstlam/properties.conf
+    vendor/cm/prebuilt/dpi/hdpi.conf:system/etc/burstlam/properties.conf
 
 # Mokee PhoneLoc
 PRODUCT_COPY_FILES +=  \
