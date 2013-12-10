@@ -154,7 +154,8 @@ PRODUCT_PACKAGES += \
     LockClock \
     CMUpdater \
     CMFota \
-    CMAccount
+    CMAccount \
+    WhisperPush
 
 # Extra Optional packages
 PRODUCT_PACKAGES += \
