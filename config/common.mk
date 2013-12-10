@@ -152,6 +152,11 @@ PRODUCT_PACKAGES += \
     CMFota \
     CMAccount
 
+# Extra Optional packages
+PRODUCT_PACKAGES += \
+    RootExplorer \
+    Firewall \
+
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
     org.cyanogenmod.hardware \
