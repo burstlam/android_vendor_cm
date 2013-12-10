@@ -221,7 +221,7 @@ PRODUCT_COPY_FILES +=  \
     vendor/cm/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.root_access=1
+    persist.sys.root_access=3
 else
 
 PRODUCT_PROPERTY_OVERRIDES += \
