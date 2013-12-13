@@ -277,8 +277,8 @@ ifdef CM_BUILDTYPE
     endif
 else
     # If CM_BUILDTYPE is not defined, set to UNOFFICIAL
-    CM_BUILDTYPE := UNOFFICIAL
-    CM_EXTRAVERSION :=
+    CM_BUILDTYPE := BURST-KERNEL-KANG
+    CM_EXTRAVERSION := _RELEASE_1
 endif
 
 ifeq ($(CM_BUILDTYPE), RELEASE)
@@ -293,9 +293,9 @@ ifeq ($(CM_BUILDTYPE), RELEASE)
     endif
 else
     ifeq ($(PRODUCT_VERSION_MINOR),0)
-        CM_VERSION := $(PRODUCT_VERSION_MAJOR)-$(shell date -u +%Y%m%d)-$(CM_BUILDTYPE)$(CM_EXTRAVERSION)-$(CM_BUILD)
+        CM_VERSION := $(PRODUCT_VERSION_MAJOR)-REMIX-$(shell date -u +%Y%m%d)-$(CM_BUILD)-$(CM_BUILDTYPE)$(CM_EXTRAVERSION)
     else
-        CM_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(shell date -u +%Y%m%d)-$(CM_BUILDTYPE)$(CM_EXTRAVERSION)-$(CM_BUILD)
+        CM_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-REMIX-$(shell date -u +%Y%m%d)-$(CM_BUILD)-$(CM_BUILDTYPE)$(CM_EXTRAVERSION)
     endif
 endif
 
