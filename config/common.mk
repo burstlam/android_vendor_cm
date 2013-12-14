@@ -62,6 +62,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.dexopt-data-only=1
+
 ifneq ($(TARGET_BUILD_VARIANT),eng)
 # Enable ADB authentication
 ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=1
@@ -150,11 +153,7 @@ PRODUCT_PACKAGES += \
     audio_effects.conf \
     CMWallpapers \
     Apollo \
-    CMFileManager \
     LockClock \
-    CMUpdater \
-    CMFota \
-    CMAccount
 
 # Extra Optional packages
 PRODUCT_PACKAGES += \
@@ -218,7 +217,9 @@ PRODUCT_PACKAGES += \
 # Terminal Emulator
 PRODUCT_COPY_FILES +=  \
     vendor/cm/proprietary/Term.apk:system/app/Term.apk \
-    vendor/cm/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
+    vendor/cm/prebuilt/common/app/LatinIME.apk:system/app/LatinIME.apk \
+    vendor/cm/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so \
+    vendor/cm/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.root_access=3
