@@ -159,6 +159,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     RootExplorer \
     Firewall \
+    DashClock
 
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
@@ -279,7 +280,7 @@ ifdef CM_BUILDTYPE
 else
     # If CM_BUILDTYPE is not defined, set to UNOFFICIAL
     CM_BUILDTYPE := BURST-KERNEL-KANG
-    CM_EXTRAVERSION := _RELEASE_1.1
+    CM_EXTRAVERSION := _RELEASE_1.6
 endif
 
 ifeq ($(CM_BUILDTYPE), RELEASE)
