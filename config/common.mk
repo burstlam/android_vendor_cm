@@ -159,7 +159,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     RootExplorer \
     Firewall \
-    DashClock
+    DashClock \
+    ScreenRecorder \
+    libscreenrecorder
 
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
@@ -227,7 +229,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 else
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.root_access=0
+    persist.sys.root_access=3
 
 endif
 
@@ -280,7 +282,7 @@ ifdef CM_BUILDTYPE
 else
     # If CM_BUILDTYPE is not defined, set to UNOFFICIAL
     CM_BUILDTYPE := BURST-KERNEL-KANG
-    CM_EXTRAVERSION := _RELEASE_1.6
+    CM_EXTRAVERSION := _RELEASE_1.8
 endif
 
 ifeq ($(CM_BUILDTYPE), RELEASE)
