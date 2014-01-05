@@ -12,7 +12,9 @@ PRODUCT_PACKAGES += \
     LiveWallpapers \
     LiveWallpapersPicker \
     VisualizationWallpapers \
-    PhotoTable
+    PhotoTable \
+    VoiceDialer \
+    SoundRecorder
 
 # PRODUCT_PACKAGES += \
 #    VideoEditor \
@@ -21,3 +23,7 @@ PRODUCT_PACKAGES += \
 #    libvideoeditor_osal \
 #    libvideoeditor_videofilters \
 #    libvideoeditorplayer
+
+# Extra tools in CM
+PRODUCT_PACKAGES += \
+    vim
