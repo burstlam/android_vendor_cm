@@ -225,11 +225,11 @@ PRODUCT_COPY_FILES +=  \
     vendor/cm/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.root_access=3
+    persist.sys.root_access=1
 else
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.root_access=3
+    persist.sys.root_access=0
 
 endif
 
@@ -282,7 +282,7 @@ ifdef CM_BUILDTYPE
 else
     # If CM_BUILDTYPE is not defined, set to UNOFFICIAL
     CM_BUILDTYPE := BURST-KERNEL-KANG
-    CM_EXTRAVERSION := _RELEASE_1.8
+    CM_EXTRAVERSION := _RELEASE_2.0
 endif
 
 ifeq ($(CM_BUILDTYPE), RELEASE)
