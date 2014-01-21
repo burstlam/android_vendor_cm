@@ -44,11 +44,40 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
+# This is CM!
+PRODUCT_COPY_FILES += \
+    vendor/omni/config/permissions/com.cyanogenmod.android.xml:system/etc/permissions/com.cyanogenmod.android.xml
+
+# Bring in camera effects
+PRODUCT_COPY_FILES +=  \
+    vendor/omni/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
+    vendor/omni/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
+
+# Copy phoneloc files
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/media/mokee-phoneloc.dat:system/media/mokee-phoneloc.dat
+
+# T-Mobile theme engine
+-include vendor/cm/config/themes_common.mk
+
 # Additional packages
 -include vendor/omni/config/packages.mk
+-include vendor/omni/config/cm_audio.mk
 
 # Versioning
 -include vendor/omni/config/version.mk
 
 # Add our overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/omni/overlay/common
+
+# Terminal Emulator
+PRODUCT_COPY_FILES +=  \
+    vendor/omni/proprietary/Term.apk:system/app/Term.apk \
+    vendor/omni/prebuilt/common/app/LatinIME.apk:system/app/LatinIME.apk \
+    vendor/omni/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so \
+    vendor/omni/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so
+
+-include $(WORKSPACE)/hudson/image-auto-bits.mk
+
+-include vendor/cyngn/product.mk
+
