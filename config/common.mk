@@ -152,6 +152,7 @@ PRODUCT_PACKAGES += \
 
 # Extra Optional packages
 PRODUCT_PACKAGES += \
+    BluetoothExt \
     RootExplorer \
     Firewall \
     DashClock \
@@ -274,7 +275,7 @@ ifdef CM_BUILDTYPE
 else
     # If CM_BUILDTYPE is not defined, set to UNOFFICIAL
     CM_BUILDTYPE := BURST-KERNEL-KANG
-    CM_EXTRAVERSION := _RELEASE_2.2
+    CM_EXTRAVERSION := _RELEASE_2.5
 endif
 
 ifeq ($(CM_BUILDTYPE), RELEASE)
