@@ -126,6 +126,11 @@ PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/app/appsetting.apk:system/app/appsetting.apk \
     vendor/cm/prebuilt/common/app/xposed_installer.apk:system/app/xposed_installer.apk \
 
+# Install persistence support
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/bin/persist.sh:install/bin/persist.sh \
+    vendor/cm/prebuilt/common/etc/persist.conf:system/etc/persist.conf
+
 # SuperSU 1.91
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/SuperSu/su:system/xbin/su \
