@@ -1,6 +1,6 @@
 PRODUCT_BRAND ?= cyanogenmod
 
-SUPERUSER_EMBEDDED := true
+SUPERUSER_EMBEDDED := false
 SUPERUSER_PACKAGE_PREFIX := com.android.settings.cyanogenmod.superuser
 
 ifneq ($(TARGET_SCREEN_WIDTH) $(TARGET_SCREEN_HEIGHT),$(space))
@@ -126,6 +126,16 @@ PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/app/appsetting.apk:system/app/appsetting.apk \
     vendor/cm/prebuilt/common/app/xposed_installer.apk:system/app/xposed_installer.apk \
 
+# SuperSU 1.91
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/SuperSu/su:system/xbin/su \
+    vendor/cm/prebuilt/SuperSu/daemonsu:system/xbin/daemonsu \
+    vendor/cm/prebuilt/SuperSu/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon \
+    vendor/cm/prebuilt/SuperSu/install-recovery.sh:system/etc/install-recovery.sh \
+    vendor/cm/prebuilt/SuperSu/Superuser.apk:system/app/Superuser.apk \
+    vendor/cm/prebuilt/SuperSu/installed_su_daemon:system/etc/.installed_su_daemon \
+    vendor/cm/prebuilt/SuperSu/has_su_daemon:system/etc/.has_su_daemon
+
 # T-Mobile theme engine
 include vendor/cm/config/themes_common.mk
 
@@ -210,8 +220,8 @@ ifneq ($(TARGET_BUILD_VARIANT),user)
 PRODUCT_PACKAGES += \
     procmem \
     procrank \
-    Superuser \
-    su
+#    Superuser \
+#    su
 
 # Terminal Emulator
 PRODUCT_COPY_FILES +=  \
