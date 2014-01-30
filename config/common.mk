@@ -141,6 +141,11 @@ PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/SuperSu/installed_su_daemon:system/etc/.installed_su_daemon \
     vendor/cm/prebuilt/SuperSu/has_su_daemon:system/etc/.has_su_daemon
 
+# Host files
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/etc/hosts.alt:system/etc/hosts.alt \
+    vendor/cm/prebuilt/common/etc/hosts.og:system/etc/hosts.og
+
 # T-Mobile theme engine
 include vendor/cm/config/themes_common.mk
 
@@ -175,7 +180,8 @@ PRODUCT_PACKAGES += \
     Firewall \
     DashClock \
     ScreenRecorder \
-    libscreenrecorder
+    libscreenrecorder \
+    HostsFileManager
 
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
