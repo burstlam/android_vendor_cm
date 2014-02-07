@@ -107,7 +107,7 @@ PRODUCT_COPY_FILES +=  \
 
 # Copy phoneloc files
 PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/common/media/mokee-phoneloc.dat:system/media/mokee-phoneloc.dat
+    vendor/cm/prebuilt/common/etc/phoneloc.dat:system/etc/phoneloc.dat
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
@@ -298,7 +298,7 @@ ifdef CM_BUILDTYPE
 else
     # If CM_BUILDTYPE is not defined, set to UNOFFICIAL
     CM_BUILDTYPE := BURST-KERNEL-KANG
-    CM_EXTRAVERSION := _RELEASE_2.6
+    CM_EXTRAVERSION := _RELEASE_2.7
 endif
 
 ifeq ($(CM_BUILDTYPE), RELEASE)
