@@ -177,11 +177,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     BluetoothExt \
     RootExplorer \
-    Firewall \
     DashClock \
     ScreenRecorder \
     libscreenrecorder \
-    HostsFileManager
+    HostsFileManager \
+    OmniSwitch
 
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
@@ -237,9 +237,9 @@ PRODUCT_PACKAGES += \
 # Terminal Emulator
 PRODUCT_COPY_FILES +=  \
     vendor/cm/proprietary/Term.apk:system/app/Term.apk \
-    vendor/cm/prebuilt/common/app/LatinIME.apk:system/app/LatinIME.apk \
     vendor/cm/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so \
-    vendor/cm/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so
+    vendor/cm/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so \
+    vendor/cm/prebuilt/common/app/LatinIME.apk:system/app/LatinIME.apk
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.root_access=1
@@ -298,7 +298,7 @@ ifdef CM_BUILDTYPE
 else
     # If CM_BUILDTYPE is not defined, set to UNOFFICIAL
     CM_BUILDTYPE := BURST-KERNEL-KANG
-    CM_EXTRAVERSION := _RELEASE_2.7
+    CM_EXTRAVERSION := _RELEASE_2.8
 endif
 
 ifeq ($(CM_BUILDTYPE), RELEASE)
