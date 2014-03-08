@@ -188,7 +188,8 @@ PRODUCT_PACKAGES += \
     ScreenRecorder \
     libscreenrecorder \
     HostsFileManager \
-    OmniSwitch
+    OmniSwitch \
+    GPSOptimizer
 
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
@@ -305,7 +306,7 @@ ifdef CM_BUILDTYPE
 else
     # If CM_BUILDTYPE is not defined, set to UNOFFICIAL
     CM_BUILDTYPE := BURST-KERNEL-KANG
-    CM_EXTRAVERSION := _RELEASE_2.8.1
+    CM_EXTRAVERSION := _RELEASE_2.8.3
 endif
 
 ifeq ($(CM_BUILDTYPE), RELEASE)
