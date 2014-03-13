@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2013 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="profileNameDefault">默認</string>
+    <string name="profileNameWork">工作</string>
+    <string name="profileNameHome">住宅</string>
+    <string name="profileNameSilent">靜音</string>
+    <string name="profileNameNight">夜晚</string>
+    <string name="profileGroupPhone">電話</string>
+    <string name="profileGroupCalendar">日曆</string>
+    <string name="profileGroupGmail">Gmail</string>
+    <string name="profileGroupEmail">電子郵件</string>
+    <string name="profileGroupSMS">短信</string>
+    <string name="wildcardProfile">其他</string>
+    <string name="reboot_confirm">你的設備將重啟.</string>
+    <string name="reboot_system" product="tablet">重啟平板</string>
+    <string name="reboot_system" product="default">重啟手機</string>
+    <string name="global_action_screenshot">屏幕截圖</string>
+    <string name="global_action_reboot">重啟</string>
+    <string name="global_action_choose_profile">情景模式</string>
+    <string name="global_actions_toggle_expanded_desktop_mode">擴展桌面</string>
+    <string name="global_actions_expanded_desktop_mode_on_status">已啟用</string>
+    <string name="global_actions_expanded_desktop_mode_off_status">已禁用</string>
+    <string name="reboot_reboot">重新啟動</string>
+    <string name="hot_reboot">熱重啟</string>
+    <string name="reboot_recovery">恢復模式</string>
+    <string name="reboot_bootloader">引導程序</string>
+    <string name="reboot_bootmenu">引導菜單</string>
+    <string name="reboot_fastboot">線刷模式</string>
+    <string name="reboot_download">下載模式</string>
+    <string name="reboot_progress">正在重啟\u2026</string>
+    <string name="reboot_confirm" product="tablet">您的平板電腦將會重啟。</string>
+    <string name="reboot_confirm" product="default">您的手機將會重啟。</string>
+    <string name="reboot_system" product="tablet">重啟平板</string>
+    <string name="reboot_system" product="default">重啟手機</string>
+
+    <string name="permlab_preventpower">阻止電源鍵</string>
+    <string name="permdesc_preventpower">允許應用程序完全掌控電源鍵</string>
+    <!--<string name="permlab_fm_radio_receiver">控制 FM 接收器</string>
+    <string name="permdesc_fm_radio_receiver">允許應用控制 FM 接收器。</string>
+    <string name="permlab_fm_radio_transmitter">控制 FM 發射器</string>
+    <string name="permdesc_fm_radio_transmitter">允許應用控制 FM 發射器。</string> -->
+    <string name="permlab_sendMockSms">發送模擬短信</string>
+    <string name="permdesc_sendMockSms">允許應用發送模擬短信.
+        這允許應用發送短信到受信任的應用. 惡意應用可能連續發送短信, 阻斷設備通知系統并擾亂用戶.</string>
+    <string name="lockscreen_discharging">正在放電, <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
+    <string name="progress_nomediapresent" product="default">沒有可移動媒體\u2026</string>
+    <string name="storage_sd_dock_card">底座 SD 卡</string>
+    <string name="app_killed_message">應用程序已被終止</string>
+    <string name="toast_rotation_unlocked">屏幕方向已解鎖</string>
+    <string name="toast_rotation_locked">屏幕方向已鎖定</string>
+    <string name="stylus_app_not_installed">%s 尚未被安裝</string>
+    <string name="permlab_changePrivacyGuardState">啟用或禁用隱私防護</string>
+    <string name="permdesc_changePrivacyGuardState">允許應用更改其他應用是否啟用隱私防護. 當一個應用程序運行時啟了用隱私防護, 它將不能訪問個人數據, 如聯系人, 通話記錄或者短信.</string>
+    <string name="privacy_guard_notification">隱私防護激活</string>
+    <string name="privacy_guard_notification_detail"><xliff:g id="app">%1$s</xliff:g> 將不能訪問個人數據</string>
+    <string name="profile_picker_title">情景模式</string>
+    <string name="profile_none">無</string>
+    <string name="permlab_cancelNotifications">取消應用程序通知</string>
+    <string name="permdesc_cancelNotifications">允許應用取消由其他應用創建的通知.</string>
+    <string name="accessibility_target_direction">滑動手勢啟動程序</string>
+    <!--<string name="perf_profile_pwrsv">省電</string>
+    <string name="perf_profile_bal">平衡</string>
+    <string name="perf_profile_perf">性能</string>-->
+
+    <!-- ScreenShort Trash -->
+    <string name="trash">"放棄"</string>
+
+    <!-- Custom system animations
+    <string name="animation_fade">淡出</string>
+    <string name="animation_slide_right">向右滑動</string>
+    <string name="animation_slide_left">向左滑動</string>
+    <string name="animation_slide_right_no_fade">向右滑動 (無淡出效果)</string>
+    <string name="animation_slide_left_no_fade">向左滑動 (無淡出效果)</string>
+    <string name="animation_slide_up">向下滑動</string>
+    <string name="animation_slide_down">向上滑動</string>
+    <string name="animation_default">默認</string>
+    <string name="animation_translucent">半透明</string>
+    <string name="animation_grow_shrink">從頂部展開</string>
+    <string name="animation_grow_shrink_center">從中間展開</string>
+    <string name="animation_grow_shrink_bottom">從底部展開</string>
+    <string name="animation_grow_shrink_left">從左側展開</string>
+    <string name="animation_grow_shrink_right">從右側展開</string>
+    <string name="action_null">空</string> -->
+
+    <string name="permlab_recordScreen">播放錄影內容</string>
+    <string name="permdesc_recordScreen">容許第三方軟體擷取螢幕.</string>
+    <string name="global_action_screenrecord">螢幕錄像</string>
+
+    <string name="dialog_color_picker">調色盤</string>
+    <string name="press_color_to_apply">點擊顏色套用更新</string>
+
+    <string name="global_actions_papie_mode_on_status">PA Pie已啟用</string>
+    <string name="global_actions_papie_mode_off_status">PA Pie已關閉</string>
+    <string name="global_actions_pie_mode_on_status">SlimPie已啟用</string>
+    <string name="global_actions_pie_mode_off_status">SlimPie已關閉</string>
+    <string name="disable_pie_navigation_error">現在沒有啟用其他導航欄按鍵，您無法關閉SLIM PIE,請先啟用導航欄.</string>
+    <string name="global_actions_nav_bar_mode_on_status">導航欄已啟用</string>
+    <string name="global_actions_nav_bar_mode_off_status">導航欄已啟用</string>
+    <string name="disable_navigation_pie_error">現在沒有啟用PIE面板，您無法關閉導航欄,請先啟用PIE面板.</string>
+
+    <!-- In WiFi AP notification -->
+    <string name="notify_turn_wifi_off_title">關閉 Wi-Fi </string>
+    <string name="notify_turn_tethering_off_title">關閉綁定分享</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Preferences - Font colors -->
+    <string name="font_color">字体颜色</string>
+    <string name="font_color_alarm">闹钟数字显示颜色</string>
+    <string name="font_color_timestamp">时间戳显示颜色</string>
+    <string name="font_color_calendar_details">日历显示颜色</string>
+
+    <!-- Font colors -->
+    <string name="white">白</string>
+    <string name="grey">灰</string>
+    <string name="black">黑</string>
+    <string name="holo_blue_light">浅蓝</string>
+    <string name="holo_green_light">浅绿</string>
+    <string name="holo_red_light">浅红</string>
+    <string name="holo_blue_dark">深蓝</string>
+    <string name="holo_green_dark">深绿</string>
+    <string name="holo_red_dark">深红</string>
+    <string name="holo_purple">紫</string>
+    <string name="holo_orange_light">浅橘</string>
+    <string name="holo_orange_dark">深橘</string>
+    <string name="holo_blue_bright">翠蓝</string>
+
+    <string name="weather_source_title">天气信息来源</string>
+    <string name="weather_source_yahoo">雅虎天气</string>
+
+    <!-- Weather icon sets -->
+    <string name="weather_icon_set_title">图示包</string>
+    <string name="weather_icons_standard">彩色</string>
+    <string name="weather_icons_monochrome">单色</string>
+    <string name="weather_icons_vclouds">VClouds</string>
+    <string name="icon_set_selection_get_more">取得更多\u2026</string>
+    <string name="icon_set_store_filter" translatable="false">Chronus 天气图示</string>
+</resources>

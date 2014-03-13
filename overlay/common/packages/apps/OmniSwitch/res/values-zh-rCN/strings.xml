@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2013 The OmniROM Project
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 2 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Omni任务面板</string>
+    <string name="status_bar_recent_remove_item_title">停用</string>
+    <string name="status_bar_recent_inspect_item_title">程式资讯</string>
+    <string name="recents_settings_title">Omni任务面板</string>
+    <string name="start_on_boot_title">开机自启</string>
+    <string name="start_on_boot_summary">程序随开机自动启用</string>
+    <string name="opacity_title">透明度</string>
+    <string name="opacity_summary">调校背景透明度</string>
+    <string name="animate_title">动画</string>
+    <string name="animate_title_summary">调节显示及隐藏动画</string>
+    <string name="adjust_handle_title">位置与大小</string>
+    <string name="sc_drag_handle_title">拖把设定选项</string>
+    <string name="sc_drag_handle_body">\n横向滑出或长按把手开启\n按键或点击开关面板以外任何位置关闭</string>
+    <string name="sc_favorite_title">常用程序</string>
+    <string name="sc_favorite_body">\n打开常用程序面板.</string>
+    <string name="icon_size_normal">一般</string>
+    <string name="icon_size_small">小</string>
+    <string name="icon_size_large">大</string>
+    <string name="icon_size_title">图示</string>
+    <string name="ok">确认</string>
+    <string name="cancel">取消</string>
+    <string name="drag_handle_color_title">颜色</string>
+    <string name="drag_handle_color_dialog_title">颜色</string>
+    <string name="service_background_processes"><xliff:g id="memory">%1$s</xliff:g> 闲置</string>
+    <string name="service_foreground_processes"><xliff:g id="memory">%1$s</xliff:g> 已使用</string>
+    <string name="show_rambar_title">内存信息</string>
+    <string name="show_rambar_summary">显示内存使用情况</string>
+    <string name="show_app_labels">显示程序名称</string>
+    <string name="show_app_labels_summary">于图示下方显示程序名称</string>
+    <string name="category_overlay_title">面板</string>
+    <string name="category_drag_handle_title">拖把</string>
+    <string name="category_favorite_title">常用程序设定</string>
+    <string name="favorite_apps_config_title">管理程序清单</string>
+    <string name="favorite_apps_config_summary">自定义程序清单</string>
+    <string name="favorite_apps_add_dialog_title">新增程序</string>
+    <string name="favorite_add">新增\u2026</string>
+    <string name="location_left" translatable="false">&lt;&lt;</string>
+    <string name="location_right" translatable="false">&gt;&gt;</string>
+    <string name="reset">默认</string>
+    <string name="toogle_last_app_help">跳至最后打开程序</string>
+    <string name="kill_all_apps_help">清除所有程序</string>
+    <string name="kill_other_apps_help">清除其他程序</string>
+    <string name="settings_help">设定</string>
+    <string name="home_help">主页</string>
+    <string name="toogle_last_app">跳至最后打开程序</string>
+    <string name="kill_all_apps">清除所有程序</string>
+    <string name="kill_other_apps">清除其他程序</string>
+    <string name="settings">设定</string>
+    <string name="home">主页</string>
+    <string name="buttons_title">按键</string>
+    <string name="buttons_summary">设定面板加载按键</string>
+    <string name="auto_hide_handle">自动隐藏</string>
+    <string name="auto_hide_handle_summary">向横划出两次隐藏</string>
+    <string name="no_recent_apps_title">最近没有执行任何任务</string>
+    <string name="drag_handle_opacity_title">透通度</string>
+    <string name="drag_handle_enable_title">启用</string>
+    <string name="drag_handle_enable_summary">只有使用其他激活方法时才禁用</string>
+</resources>

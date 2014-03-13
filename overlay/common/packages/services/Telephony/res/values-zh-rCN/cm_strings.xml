@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="call_notif_unconditionalCF">启用无条件的来电转接</string>
+    <string name="call_notif_conditionalCF">启用有条件的来电转接</string>
+    <string name="call_notif_MOcall_forwarding">呼出电话已被转接</string>
+    <string name="call_notif_cugcall">在封闭用户组内通话</string>
+    <string name="call_notif_outgoing_barred">呼出电话被禁止</string>
+    <string name="call_notif_incoming_barred">来电被对方禁止</string>
+    <string name="call_notif_clir_suppression_rejected">自我号码抑制被网络拒绝</string>
+    <string name="call_notif_call_deflected">调用被对方转接</string>
+    <string name="call_notif_MTcall_forwarding">来电是被转接的</string>
+    <string name="call_notif_multipartycall">多方电话</string>
+    <string name="call_notif_callonhold_released">调用被对方释放</string>
+    <string name="call_notif_forwardcheckreceived">调用被转接</string>
+    <string name="call_notif_callconnectingect">调用正在通过显式调用转移进行连接</string>
+    <string name="call_notif_callconnectedect">调用已通过显式调用转移连接</string>
+
+    <!-- Advanced Settings -->
+    <string name="incall_vibration">通话震动</string>
+    <string name="vibrate_outgoing">接电话时震动</string>
+    <string name="vibrate_call_waiting">等待接通时震动</string>
+    <string name="vibrate_hangup">挂断时震动</string>
+    <string name="vibrate_45">每分钟震动</string>
+    <string name="vibrate_45_sum">打出电话时在每分钟的45秒时震动</string>
+    <string name="show_ssn_label">事件提醒</string>
+    <string name="show_ssn_summary">为通话处理相关的各种网络事件显示一个通知</string>
+
+    <!-- Blacklist preferences -->
+    <string name="blacklist_title">黑名单</string>
+    <string name="blacklist_summary_disabled">禁用</string>
+    <string name="blacklist_summary">来自黑名单中号码的来电会被拒绝</string>
+
+    <!-- Blacklist notifications -->
+    <string name="blacklist_notification">拒绝了一个来自 %s 的电话</string>
+    <string name="blacklist_notification_private_number">拒绝了一个来自私人号码的电话</string>
+    <string name="blacklist_notification_list_private">秘密</string>
+    <string name="blacklist_notification_unknown_number">拒绝了未知号码 %s</string>
+    <string name="blacklist_notification_multiple"><xliff:g id="count">%d</xliff:g> 已拒绝</string>
+    <string name="unblock_number">解禁</string>
+
+    <!-- Permission for notification-bar network toggle -->
+    <string name="perm_change_mobile_network">改变模式 (2G/3G)</string>
+    <string name="perm_change_mobile_network_desc">切换(2G/3G)模式，3G比较快，但耗电也比较多.</string>
+
+    <!-- Non-Intrusive InCall UI -->
+    <string name="preference_category_interface">通话界面</string>
+    <string name="non_intrusive_incall_title">简约模式</string>
+    <string name="non_intrusive_incall_summary">在屏幕下方显示一个简约接听通话界面</string>
+
+    <!-- Play Call End Tone -->
+    <string name="call_end_sound_title">结束通话提示音</string>
+    <string name="call_end_sound_summary">结束通话时播放提示音</string>
+
+    <!-- My Phone Number -->
+    <string name="phone_number_label">我的手机号码</string>
+    <string name="phone_number_summary">为这台设备设置手机号码</string>
+
+    <!--<string name="battery_mode">省电模式</string>
+    <string name="battery_mode_label">关屏时自动切换成2G模式连接</string>-->
+
+    <!-- Setting title for the flip action setting. -->
+    <string name="flip_action_title">翻转操作</string>
+
+    <!-- Dialog title of the flip action setting. -->
+    <string name="flip_action_dialog_title">翻转设备来\u2026</string>
+
+    <!-- Setting summary for the flip action setting. -->
+    <string name="flip_action_summary">翻转设备将 <xliff:g id="action">%s</xliff:g></string>
+
+    <!-- Entries listed in the setting for the flip action. -->
+    <string-array name="flip_action_setting_entries">
+        <item>无作用</item>
+        <item>减弱音响</item>
+        <item>舍弃来电</item>
+    </string-array>
+
+    <!-- Summary texts for flip action. Must be ordered by numerical
+value (do nothing = 0, mute = 1, dismiss = 2) -->
+    <string-array name="flip_action_summary_entries">
+        <item>无作用</item>
+        <item>减弱音响</item>
+        <item>舍弃来电</item>
+    </string-array>
+
+    <!-- Call UI in background
+    <string name="bg_incall">后台来电</string>
+    <string name="bg_incall_summary">亮屏时来电不干扰前台工作,只在状态栏提示</string> -->
+
+    <!-- Integrated phone directory 
+    <string name="enable_suggestions_title">搜寻附近地点</string>
+    <string name="enable_suggestions_summary">显示不在我的联络人名单中的商家名称</string>
+    <string name="enable_reverse_lookup_title">搜寻联络人</string>
+    <string name="enable_reverse_lookup_summary">显示不在我的联络人名单中的使用者</string>-->
+
+    <!-- Number lookup -->
+    <string name="number_lookup">号码搜寻</string>
+    <string name="enable_forward_lookup_title">启用附近地点</string>
+    <string name="enable_forward_lookup_summary">显示附近地点号码</string>
+    <string name="enable_reverse_lookup_title">逆向搜寻</string>
+    <string name="enable_reverse_lookup_summary">逆向搜寻未知的来电号码</string>
+    <string name="choose_lookup_providers">选择搜寻伺服器</string>
+    <string name="choose_forward_lookup_provider_title">搜寻附近地点伺服器</string>
+    <string name="choose_reverse_lookup_provider_title">逆向搜寻伺服器</string>
+</resources>

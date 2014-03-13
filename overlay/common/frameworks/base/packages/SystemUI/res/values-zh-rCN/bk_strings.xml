@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Recents Ram Bar -->
+    <string name="memory">运行内存</string>
+    <!-- [CHAR LIMIT=10] Running services, summary of background processes -->
+    <string name="service_free_mem"><xliff:g id="memory">%1$s</xliff:g> 可用</string>
+    <!-- [CHAR LIMIT=10] Running services, summary of foreground processes -->
+    <string name="service_used_mem"><xliff:g id="memory">%1$s</xliff:g> 使用中</string>
+
+    <!-- Screenrecord Notification Ticker
+    <string name="screenrecord_notif_ticker">捕获屏幕中</string> -->
+
+    <!-- Screenrecord notification title
+    <string name="screenrecord_notif_title">捕获屏幕</string> -->
+
+    <!-- Screenrecord notification action: Stop
+    <string name="screenrecord_notif_stop">停止</string> -->
+
+    <!-- Screenrecord notification action: Toggle pointer
+    <string name="screenrecord_notif_pointer">显示指针</string> -->
+
+    <!-- Screen record notification error title
+    <string name="screenrecord_notif_error">不能捕获屏幕</string> -->
+
+    <!-- HALO -->
+    <string name="accessibility_halo">打开HALO</string>
+    <string name="status_bar_notification_floating_item_title">以悬浮窗口打开</string>
+    <string name="status_bar_recent_floating_item_title">以悬浮窗口打开</string>
+    <string name="halo_dismiss">取消通知</string>
+    <string name="halo_hide">隐藏HALO</string>
+    <string name="halo_clear_all">清空通知</string>
+    <string name="halo_silence">隐藏并静音直到唤醒</string>
+    <string name="halo_tutorial1">这是HALO</string>
+    <string name="halo_tutorial2">移动方法：双击并拖拽</string>
+    <string name="halo_tutorial3">浏览任务：横向拖动</string>
+    <string name="halo_battery_plugged">充电</string>
+    <string name="halo_battery_unplugged">剩馀</string>
+    <string name="halo_battery_full">充满</string>
+    <string name="halo_aeroplane1">飞行</string>
+    <string name="halo_aeroplane2">模式</string>
+    <string name="halo_wifi_on">WI-FI 开启</string>
+    <string name="halo_wifi_off">WI-FI 关闭</string>
+    <string name="halo_signal_bars_4">满</string>
+    <string name="halo_signal_bars_3">三格</string>
+    <string name="halo_signal_bars_2">两格</string>
+    <string name="halo_signal_bars_1">一格</string>
+    <string name="halo_signal_bars_none">无</string>
+
+    <!-- App sidebar -->
+    <string name="default_folder_text">文件夹</string>
+    <string name="title_activity_sidebar_configuration">侧边栏内容设置</string>
+    <string name="action_save">保存</string>
+    <string name="toast_items_saved">侧边栏项目已保存.</string>
+    <string name="content_setup_instructions">长按右边的项目并拖拽到侧边栏以添加项目.\n\n将项目拖拽到任何已有的项目之上，可以创建文件夹.\n\n要删除，只需简单的将项目拖拽出侧边栏即可.</string>
+    <string name="content_setup_dismiss">继续</string>
+
+    <!-- QS Battery Tile -->
+    <string name="quick_settings_battery_charging">充电中</string>
+    <string name="quick_settings_battery_discharging">放电中</string>
+
+    <!-- Kill app toast -->
+    <string name="app_killed_message">程序已释放</string>
+
+    <!-- Slim Shortcut Actions -->
+    <string name="shortcut_picker">Slim 快捷键</string>
+    <string name="shortcut_immersive">临场模式开关</string>
+    <string name="shortcut_quiethours">免打扰模式开关</string>
+    <string name="shortcut_rotation">屏幕旋转锁开关</string>
+    <string name="shortcut_torch">手电筒开关</string>
+    <string name="shortcut_reboot">重启 (即时)</string>
+    <string name="shortcut_last_app">上一个程序</string>
+    <string name="shortcut_screenshot">截屏</string>
+    <!--<string name="shortcut_power_menu">电源键菜单</string>
+    <string name="shortcut_screensleep">休眠</string>-->
+    <string name="shortcut_volume">音量</string>
+    <string name="shortcut_toggle_title">执行动作</string>
+    <string name="shortcut_chamber">密室</string>
+    <string name="quick_settings_reminder">提醒</string>
+    <string name="quick_settings_reminder_title">主题:</string>
+    <string name="quick_settings_reminder_message">信息:</string>
+    <string name="quick_settings_reminder_time">提醒时间</string>
+    <string name="quick_settings_reminder_set">设定时间</string>
+    <string name="quick_settings_reminder_update">更新时间</string>
+    <string name="quick_settings_reminder_no_expire">没有通知</string>
+    <string name="quick_settings_reminder_dismiss">清除通知</string>
+    <string name="quick_settings_reminder_dismiss_message">清除当前提醒事项?</string>
+    <string name="quick_settings_reminder_help_title">点击</string>
+    <string name="quick_settings_reminder_noti_dismiss">取消</string>
+    <string name="quick_settings_reminder_help_message">点击此处编辑新提醒,长按则清除.</string>
+
+    <string name="chamber_disabled">密室已关闭</string>
+    <string name="chamber_title">输入字串</string>
+    <string name="chamber_message">输入字串来自订标示开关或清单内容. 例如, 免打扰来电提示音等.　基本上记载于 Settings.java 文件的字串都可以修改. 警告: 这个动作有相当危险性!</string>
+    <string name="chamber_invalid">输入无效</string>
+    <string name="chamber_checkbox">复选框</string>
+    <string name="chamber_chk_message">确定这是一个复选框设定?</string>
+    <string name="chamber_int">输入数值</string>
+    <string name="chamber_int_message">输入你想开关状态代表数值.　每个数值用逗号分隔　颜色设置接受十六进制值，例如＃FF00aacc　或以英文输入简单配色例如 red green及 yellow.</string>
+    <string name="chamber_name_title">捷径名称</string>
+    <string name="chamber_name_message">为捷径自定义名称</string>
+    <string name="chamber_name_toast">使用默认名称</string>
+
+    <!-- Quick Settings -->
+    <string name="quick_settings_gps">GPS</string>
+    <string name="quick_settings_gps_off">GPS 关闭</string>
+    <string name="quick_settings_screen_sleep">电源键</string>
+    <string name="quick_settings_ringer_on">音效</string>
+    <string name="quick_settings_ringer_off">音效关闭</string>
+    <string name="quick_settings_vibration_on">振动</string>
+    <string name="quick_settings_vibration_off">振动关闭</string>
+    <string name="quick_settings_label_enabled">打开</string>
+    <string name="quick_settings_label_disabled">关闭</string>
+    <string name="quick_settings_ringer_normal">铃声</string>
+    <string name="quick_settings_lockscreen">显示锁屏</string>
+    <string name="quick_settings_network_type">网络模式</string>
+    <string name="quick_settings_report_bug">错误报告</string>
+    <string name="quick_settings_sync">同步</string>
+    <string name="quick_settings_sync_off">同步关闭</string>
+    <string name="quick_settings_torch">手电筒</string>
+    <string name="quick_settings_torch_off">手电筒关闭</string>
+    <string name="quick_settings_nfc">NFC</string>
+    <string name="quick_settings_nfc_off">NFC 关闭</string>
+    <string name="quick_settings_screen_timeout">屏幕超时</string>
+    <string name="quick_settings_screen_timeout_summary" translatable="false">%1$d %2$s</string>
+    <string name="quick_settings_screen_timeout_summary_never">永不</string>
+    <string name="quick_settings_usb_tether_off_label">没有连接</string>
+    <string name="quick_settings_usb_tether_connected_label">绑定关闭</string>
+    <string name="quick_settings_usb_tether_on_label">已绑定</string>
+    <string name="quick_settings_wifiap">Wi-Fi AP</string>
+    <string name="quick_settings_wifiap_off">Wi-Fi AP 关闭</string>
+    <string name="quick_settings_quiethours">免打扰时段</string>
+    <string name="quick_settings_quiethours_off">停用</string>
+    <string name="quick_settings_lte">LTE</string>
+    <string name="quick_settings_lte_off">LTE 关闭</string>
+    <string name="quick_settings_volume">音量</string>
+    <string name="quick_settings_expanded_desktop">全屏模式</string>
+    <string name="quick_settings_expanded_desktop_off">正常显常</string>
+    <string name="quick_settings_music_play">播放</string>
+    <string name="quick_settings_music_pause">暂停</string>
+    <string name="quick_settings_music_schedule_title">睡眠计时器</string>
+    <string name="quick_settings_music_schedule_in_progress">计时器运作中</string>
+    <string name="quick_settings_music_schedule_start">计时器开始</string>
+    <string name="quick_settings_music_schedule_cancel">重置计时器</string>
+    <string name="quick_settings_music_schedule_update">更新计时器</string>
+    <string name="quick_settings_reboot_recovery">刷机模式</string>
+    <string name="quick_settings_reboot">重启</string>
+    <string name="quick_settings_profile">情景模式</string>
+    <string name="quick_settings_camera_label">快拍</string>
+    <string name="quick_settings_camera_error_connect">无法连接相机</string>
+
+    <!-- Power widget -->
+    <string name="powerwidget_screen_timeout_toast">屏幕超时设为: %1$d %2$s</string>
+
+    <!-- Development shortcut -->
+    <string name="advanced_dev_option_wipe_app">清除数据</string>
+    <string name="advanced_dev_option_force_stop">强行停止</string>
+
+    <string name="quick_settings_theme_switch_dark">酷黑主题</string>
+    <string name="quick_settings_theme_switch_light">皎白主题</string>
+    <string name="quick_settings_quick_record_nofile">长按</string>
+    <string name="quick_settings_quick_record_def">一键录音</string>
+    <string name="quick_settings_quick_record_rec">录制中...</string>
+    <string name="quick_settings_quick_record_save">已储存</string>
+    <string name="quick_settings_quick_record_play">播放中...</string>
+    <string name="quick_settings_fcharge">USB快充</string>
+
+    <string name="pie_date_format">yyyy MMM dd日, ccc</string>
+
+    <!-- Title shown in recents popup for adding an application to the split view -->
+    <string name="status_bar_recent_add_to_split_view">新增到分割視窗</string>
+
+    <!-- Screenshot delete -->
+    <string name="screenshot_delete_action">删除</string>
+    <string name="screenshot_delete_confirmation">截图已删除.</string>
+
+    <!-- Slim Pie -->
+    <!-- Battery status in pie controls -->
+    <string name="pie_battery_status_charging">充电中 (<xliff:g id="percent">%d</xliff:g>%%)</string>
+    <string name="pie_battery_status_full">充电完成</string>
+    <string name="pie_battery_status_discharging">剩余<xliff:g id="percent">%d</xliff:g>%%</string>
+
+    <!-- Phone status in pie controls -->
+    <string name="pie_phone_status_no_service">没有服务</string>
+    <string name="pie_phone_status_airplane_mode">飞航号码</string>
+    <string name="pie_phone_status_emergency_only">只可拨打紧急号码</string>
+
+    <string name="active_display_privacy_content">私隐模式执行中：通知信息内容不会显示</string>
+
+    <string name="status_bar_recent_playstore_item_title">Play 商店</string>
+    <string name="status_bar_recent_amazon_item_title">Amazon 商店</string>
+
+    <!-- Smart PullDown Warning -->
+    <string name="smart_pulldown_disabled">智能下拉已关闭</string>
+</resources>

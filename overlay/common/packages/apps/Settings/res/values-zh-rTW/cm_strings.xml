@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ring_mode_title">響鈴模式</string>
+    <string name="ring_mode_normal">正常</string>
+    <string name="ring_mode_vibrate">振動</string>
+    <string name="ring_mode_mute">靜音</string>
+
+    <!-- Volume panel style -->
+    <string name="volume_overlay_title">聲控面板風格</string>
+    <string name="volume_overlay_single">單獨</string>
+    <string name="volume_overlay_expandable">可展開</string>
+    <string name="volume_overlay_expanded">預設展開</string>
+    <string name="volume_overlay_none">不顯示</string>
+
+    <!-- Automatation and effects category -->
+    <string name="automation_effects_title">自動化與效果</string>
+
+    <!-- Convert sound to vibration toggle -->
+    <string name="notification_convert_sound_to_vibration_title">收到通知時震動</string>
+    <string name="notification_convert_sound_to_vibration_summary">處於震動型態時，所有的通知都將無視任何應用的單獨設定并產生震動</string>
+
+    <!-- Vibrate during phone calls -->
+    <string name="notification_vibrate_during_calls_title">呼叫時震動</string>
+    <string name="notification_vibrate_during_calls_summary">通話期間來電時震動通知</string>
+
+    <string name="increasing_ring_title">漸強鈴聲</string>
+    <string name="checkbox_increasing_ring">啟用</string>
+    <string name="increasing_ring_min_volume_title">鈴聲起始音量</string>
+    <string name="increasing_ring_volume_notice">注意：\n如起始音量大於系統鈴聲音量，系統鈴聲音量將會被使用。</string>
+    <string name="increasing_ring_interval_title">增強間隔</string>
+    <string name="increasing_ring_interval_eachring">每次鈴聲播放</string>
+    <string name="increasing_ring_interval_half_second">每 0.5 秒</string>
+    <string name="increasing_ring_interval_1second">每 1 秒</string>
+    <string name="increasing_ring_interval_2seconds">每 2 秒</string>
+    <string name="increasing_ring_interval_3seconds">每 3 秒</string>
+    <string name="increasing_ring_interval_5seconds">每 5 秒</string>
+    <string name="increasing_ring_interval_10seconds">每 10 秒</string>
+
+    <!-- Profiles settings  -->
+    <string name="profiles_settings_title">情景模式</string>
+    <string name="profiles_add">添加</string>
+    <string name="profile_menu_delete">刪除</string>
+    <string name="profile_settings_title">情景</string>
+    <string name="profile_empty_list_profiles_off">如果您想配置并使用系統情景，請先開啟情景模式。</string>
+    <string name="profile_trigger_configure">觸發設定</string>
+    <string name="profile_triggers">設定觸發</string>
+    <string name="profile_trigger_filter_all">所有觸發方式</string>
+    <string name="profile_trigger_filter_wifi">WLAN 觸發</string>
+    <string name="profile_trigger_filter_bluetooth">藍牙觸發</string>
+    <string name="profile_write_nfc_tag">寫到 NFC 標簽</string>
+    <string name="profile_write_touch_tag">觸摸標簽以便寫入</string>
+    <string name="profile_write_success">標簽寫入成功！</string>
+    <string name="profile_write_failed">標簽寫入失敗！</string>
+    <string name="profile_selected">選擇的情景：%1$s</string>
+    <string name="profile_nfc_text">將一個情景寫入 NFC 標簽能夠允許您通過觸摸標簽的行為更改情景。再次觸摸將會返回到您之前選擇的情景。</string>
+    <string name="profile_unknown_nfc_tag">未知情景</string>
+    <string name="profile_add_nfc_text">此 NFC 標簽是與一個未知的情景相連的。把此 NFC 標簽連接到一個現有的情景將會允許您以后選擇這個情景。</string>
+    <string name="profile_select">選擇情景</string>
+
+    <!-- Add Profile -->
+    <string name="add_profile_dialog_title">創建新的情景模式</string>
+    <string name="profile_name_title">名稱</string>
+    <string name="profile_profile_name_prompt">為新的情景模式輸入一個名稱</string>
+    <string name="menu_new_profile">新情景模式</string>
+    <string name="new_profile_name">&lt;新情景模式&gt;</string>
+
+    <!-- Rename Dialog  -->
+    <string name="rename_dialog_title">重命名</string>
+    <string name="rename_dialog_message">輸入一個新名稱</string>
+    <string name="duplicate_profile_name">此情景名稱已被使用！</string>
+    <string name="duplicate_appgroup_name">此應用組名稱已被使用！</string>
+
+    <!-- Reset Profiles -->
+    <string name="profile_reset_title">重置</string>
+    <string name="profile_reset_message">您確定要刪除所有用戶創建的情景與應用組并且還原為默認值？</string>
+
+    <!-- Delete confimation messages -->
+    <string name="profile_delete_confirm">您確定要刪除此情景？</string>
+    <string name="profile_app_delete_confirm">您確定要移除此應用？</string>
+    <string name="profile_cannot_delete">當前使用中的情景不能被刪除</string>
+
+    <!-- Profile Config screen PreferenceGroup titles -->
+    <string name="profile_connectionoverrides_title">連接覆蓋</string>
+    <string name="profile_volumeoverrides_title">音量覆蓋</string>
+    <string name="connection_state_disabled">禁用</string>
+    <string name="connection_state_enabled">啟用</string>
+    <string name="volume_override_summary">設置為</string>
+
+    <!-- Menu item for managing profiles -->
+    <string name="profile_profiles_manage">情景</string>
+    <string name="profile_profile_manage">管理情景</string>
+    <string name="profile_appgroups_manage">應用組</string>
+    <string name="profile_appgroup_manage">管理應用組</string>
+
+    <!-- Profile settings screen, section header for settings related to notification profiles -->
+    <string name="profile_settings">情景設置</string>
+    <string name="profile_trigger_connect">連接時觸發</string>
+    <string name="profile_trigger_disconnect">斷開時觸發</string>
+    <string name="profile_trigger_notrigger">無觸發</string>
+
+    <!-- Profile Settings sound modes labels -->
+    <string name="sound_mode">提醒模式</string>
+    <string name="ringer_mode">鈴聲模式</string>
+    <string name="lights_mode">燈光模式</string>
+    <string name="vibrate_mode">震動模式</string>
+    <string name="choose_soundtone">選擇提醒音</string>
+    <string name="choose_ringtone">選擇鈴聲</string>
+
+    <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
+    <string name="soundtone_title">提醒音</string>
+
+    <!-- Title for application group setting screen -->
+    <string name="profile_appgroups_title">應用組</string>
+    <string name="profile_applist_title">應用</string>
+    <string name="profile_new_appgroup">新的應用組</string>
+    <string name="profile_delete_appgroup">刪除該應用組</string>
+    <string name="profile_appgroup_name_prompt">為新的應用組輸入一個名稱</string>
+    <string name="profile_appgroup_name_title">名稱</string>
+
+    <!-- Add application dialog box title -->
+    <string name="profile_choose_app">選擇應用</string>
+
+    <!-- Profiles - system settings -->
+    <string name="profile_system_settings_title">系統設置</string>
+    <string name="profile_lockmode_title">鎖屏模式</string>
+    <string name="profile_lockmode_default">默認</string>
+    <string name="profile_lockmode_insecure">不安全</string>
+    <string name="profile_lockmode_disabled">禁用</string>
+    <string name="profile_lockmode_default_summary">使用系統默認值</string>
+    <string name="profile_lockmode_insecure_summary">使用不安全鎖屏</string>
+    <string name="profile_lockmode_disabled_summary">鎖屏已禁用</string>
+    <string name="profile_airplanemode_title">飛行模式</string>
+
+    <!-- Connection override toggles (not all are used at this time ) -->
+    <string name="toggleWifi">WLAN</string>
+    <string name="toggleWifiAp">便攜式 WLAN 熱點</string>
+    <string name="toggleBluetooth">藍牙</string>
+    <string name="toggleGPS">GPS</string>
+    <string name="toggleData">移動數據</string>
+    <string name="toggleSync">數據同步</string>
+    <string name="toggle2g3g">2G/3G</string>
+    <string name="toggleWimax">WiMAX</string>
+    <string name="toggleNfc">NFC</string>
+
+    <!-- Advanced reboot options -->
+    <string name="advanced_reboot_title">高級重啟</string>
+    <string name="advanced_reboot_summary">解鎖設備后，在電源菜單的重啟選項下加入重啟至恢復模式與引導程序的選擇</string>
+
+    <string name="app_security_title">應用安全</string>
+
+    <!-- Setting checkbox title for root access -->
+    <string name="root_access">Root 授權</string>
+    <string name="root_access_warning_title">允許 Root 授權請求？</string>
+    <string name="root_access_warning_message">允許程序得到超級用戶權限是有風險的！這可能會影響您的系統安全！</string>
+
+    <string name="root_access_none">禁用</string>
+    <string name="root_access_apps">僅限於應用程序</string>
+    <string name="root_access_adb">僅限於 ADB</string>
+    <string name="root_access_all">應用程序與 ADB</string>
+
+    <string name="ok">OK</string>
+
+    <!-- About phone screen,  setting option name-->
+    <string name="mod_version">CyanogenMod 版本</string>
+    <string name="mod_version_default">未知</string>
+    <string name="build_date">編譯日期</string>
+
+    <!-- About device screen, Cpu info. -->
+    <string name="cpu_info">處理器</string>
+    <string name="mem_info">內存</string>
+
+    <string name="header_category_interface">個性化</string>
+    <string name="homescreen_settings_title">主屏幕</string>
+    <string name="themes_settings_title">主題</string>
+    <string name="system_settings_title">界面</string>
+    <string name="system_interface_title">系統界面</string>
+    <string name="notification_drawer_title">下拉通知欄</string>
+
+    <!-- Performance Settings  -->
+    <string name="performance_settings_title">性能</string>
+    <string name="performance_settings_warning_title">請謹慎前進</string>
+    <string name="performance_settings_warning">這些設置完全是用於測試與實驗。這里的改變將直接影響系統性能，并可能導致系統不穩定、數據丟失與硬件損傷。\n\n如果您更改了這里的設置，我們請求您不要向我們提交錯誤報告。</string>
+    <string name="performance_set_on_boot">啟動時設置</string>
+    <string name="performance_set_on_boot_summary">在啟動時恢復當前的 CPU 設置</string>
+    <string name="processor_title">處理器</string>
+    <string name="cpu_cur_freq_title">當前 CPU 頻率</string>
+    <string name="cpu_governors_title">CPU 調節器</string>
+    <string name="cpu_min_freq_title">最低 CPU 頻率</string>
+    <string name="cpu_max_freq_title">最高 CPU 頻率</string>
+    <string name="io_scheds_title">I/O 調度器</string>
+    <string name="io_sched_title">I/O 調度器</string>
+    <string name="memory_management_title">內存管理</string>
+    <string name="pref_ksm_title">KSM</string>
+    <string name="pref_ksm_summary">KSM 降低系統對內存的要求并提高性能</string>
+    <string name="pref_purgeable_assets_title">允許內存資源的清除</string>
+    <string name="pref_purgeable_assets_summary">清除位圖內存資源可以在系統需要時提供更多的內存 (需要重啟)</string>
+    <string name="pref_use_16bpp_alpha_title">使用 16 位透明度</string>
+    <string name="pref_use_16bpp_alpha_summary">更佳的圖形性能，但會降低圖像質量以及影響視覺效果 (需要重啟)</string>
+
+    <!-- Performance Settings : Performance profile settings -->
+    <string name="perf_profile_title">配置檔</string>
+
+    <!-- Performance Settings : Performance profile modes -->
+    <string name="perf_profile_pwrsv">省電</string>
+    <string name="perf_profile_bal">平衡</string>
+    <string name="perf_profile_perf">性能</string>
+
+    <!-- Change Log strings -->
+    <string name="changelog_title">查看更改記錄</string>
+    <string name="changelog_loading">正在讀取更改記錄\u2026</string>
+    <string name="changelog_error">無法讀取更改記錄</string>
+    <string name="changelog_unknown">未知</string>
+    <string name="changelog_version">版本</string>
+
+    <!-- Advanced, Device specific (DeviceParts) settings  -->
+    <string name="advanced_settings_title">高級</string>
+
+    <!-- Launches Dev Tools -->
+    <string name="development_tools_title">啟動開發工具</string>
+
+    <!-- Privacy Guard -->
+    <string name="privacy_guard_switch_label">啟用隱私防護</string>
+    <string name="privacy_guard_dlg_title">是否啟用隱私防護？</string>
+    <string name="privacy_guard_dlg_text">啟用隱私防護后，應用將無法訪問個人隱私數據，例如：聯系人、短信或通話記錄。</string>
+    <string name="privacy_guard_dlg_system_app_text">當對內置的應用啟用隱私防護后，應用將不能訪問個人隱私數據。這可能導致其他應用的不正常工作。</string>
+    <string name="privacy_guard_default_title">默認啟用隱私防護</string>
+    <string name="privacy_guard_default_summary">默認只對新安裝的應用啟用隱私防護</string>
+    <string name="privacy_guard_manager_title">隱私防護</string>
+    <string name="privacy_guard_manager_summary">管理哪些應用可以訪問您的個人資料</string>
+    <string name="privacy_guard_no_user_apps">未安裝應用</string>
+    <string name="privacy_guard_filter_does_not_match">沒有安裝具有相關權限的應用</string>
+    <string name="privacy_guard_help_title">幫助</string>
+    <string name="privacy_guard_reset_title">重置</string>
+    <string name="privacy_guard_help_text">在這個屏幕上，您可以簡單的通過點擊來選擇在哪些應用上啟用隱私防護。選中的應用將無法訪問個人隱私數據，例如：聯系人、短信或通話記錄。長按一個條目將打開應用的詳細頁面。\n\n默認情況下將不顯示內置的應用。如果您想顯示內置應用或者只顯示那些在權限聲明中需要訪問個人隱私數據的應用，請在菜單中選擇相應的選項。</string>
+    <string name="privacy_guard_manager_show_system_apps">顯示內置應用</string>
+    <string name="privacy_guard_manager_filter_permissions">權限過濾</string>
+    <string name="privacy_guard_advanced_settings_title">進階</string>
+    <string name="privacy_guard_notification_title">使用時顯示狀態欄提示</string>
+
+    <!-- Blacklist preferences -->
+    <string name="blacklist_title">黑名單</string>
+    <string name="blacklist_edit_dialog_title">編輯黑名單</string>
+    <string name="blacklist_prefs">設置</string>
+    <string name="blacklist_button_delete">刪除</string>
+    <string name="blacklist_empty_text">您沒有任何的黑名單號碼。您可以點擊 (+) 按鈕來添加。</string>
+    <string name="blacklist_disabled_empty_text">要阻止來自特定號碼的來電或短信，請啟用黑名單。</string>
+    <string name="blacklist_summary_disabled">禁用</string>
+    <string name="blacklist_summary">來自黑名單上的號碼的電話與短信將被阻止</string>
+    <string name="blacklist_notify">顯示通知</string>
+    <string name="blacklist_private_numbers_title">私人號碼</string>
+    <string name="blacklist_private_numbers_summary_disabled">不要阻止私人號碼的來電</string>
+    <string name="blacklist_private_numbers_summary">阻止私人號碼的<xliff:g id="type">%s</xliff:g></string>
+    <string name="blacklist_unknown_numbers_title">未知號碼</string>
+    <string name="blacklist_unknown_numbers_summary_disabled">不要阻止不在聯系人列表上的號碼的來電和短信</string>
+    <string name="blacklist_unknown_numbers_summary">阻止不在聯系人列表上的號碼的<xliff:g id="type">%s</xliff:g></string>
+    <string name="blacklist_summary_type_calls_only">來電</string>
+    <string name="blacklist_summary_type_messages_only">短信</string>
+    <string name="blacklist_summary_type_calls_and_messages">來電和短信</string>
+    <string name="blacklist_regex_title">使用通配符</string>
+    <string name="blacklist_regex_summary">使用 . 作為通配符和 * 作為重復字符，例如：123.* 將會阻止所有 123 為前綴的號碼；.*123.* 將會阻止所有包含 123 的號碼</string>
+    <string name="blacklist_policy_block_calls">阻止來電</string>
+    <string name="blacklist_policy_block_messages">阻止接收短信</string>
+
+    <!-- Blacklist management -->
+    <string name="add_blacklist_number">添加號碼</string>
+    <string name="remove_blacklist_number_title">移除號碼</string>
+    <string name="remove_blacklist_entry">您確定要從黑名單中移除嗎？</string>
+    <string name="select_contact">選擇聯系人</string>
+
+    <!-- Hardware tunables - Vibrator intensity -->
+    <string name="vibrator_intensity_title">振動器強度</string>
+    <string name="vibrator_warning">不推荐高於 %1$d 的震動強度</string>
+
+    <!-- Hardware tunables - Color calibration -->
+    <string name="color_calibration_title">顏色校准</string>
+    <string name="color_calibration_summary">校准屏幕顏色</string>
+    <string name="color_red_title">紅</string>
+    <string name="color_green_title">綠</string>
+    <string name="color_blue_title">藍</string>
+
+    <!-- Hardware tunables - Gamma calibration -->
+    <string name="gamma_tuning_title_head">伽瑪校准</string>
+    <string name="gamma_tuning_summary_head">調整伽瑪值</string>
+    <string name="gamma_tuning_control_set_header">群組 <xliff:g id="index">%d</xliff:g></string>
+    <string name="gamma_tuning_contrast">對比度</string>
+    <string name="gamma_tuning_brightness">亮度</string>
+    <string name="gamma_tuning_saturation">飽和度</string>
+
+
+    <string name="headset_category_title">耳機</string>
+    <string name="headset_connect_player_title">啟動音樂播放器</string>
+    <string name="headset_connect_player_summary">插入耳機時啟動默認音樂播放器</string>
+
+    <string name="more_device_controls_title">更多\u2026</string>
+    <string name="more_device_settings_title">其他設備選項</string>
+    <string name="sensors_motors_title">傳感器 &amp; 震動</string>
+    <string name="display_calibration_title">屏幕校准</string>
+
+    <string name="adb_notify">USB 調試通知</string>
+    <string name="adb_notify_summary">USB 調試模式連接時將顯示一個通知</string>
+
+    <!-- Android debugging over WiFi -->
+    <string name="adb_over_network">網路ADB除錯</string>
+    <string name="adb_over_network_summary">啟用通過網路的 TCP/IP 除錯 (Wi-Fi, USB 網路). 重啟時此選項自動關閉</string>
+    <!-- Warning for Adb over Network -->
+    <string name="adb_over_network_warning">警告：網路 ADB 除錯啟用后,您的裝置將會在已連線的網路(包括 GSM 資料網路)上被視為是開放的,并且有可能被侵入!\n\n請僅在您所信任的網路上使用此功能.\n\n您確實要啟用該功能嗎?</string>
+
+    <string name="device_hostname">設備網絡名</string>
+    <string name="restart_systemui">重啟系統界面</string>
+
+    <!-- Backlight brightness settings screen -->
+    <string name="adaptive_backlight_title">自適應背光</string>
+    <string name="adaptive_backlight_summary">智能調節背光亮度以延長電池壽命</string>
+
+    <!-- Sms security limit -->
+    <string name="sms_security_check_limit_title">短信限制</string>
+    <string name="sms_security_check_limit_summary">應用程序在 30 分鐘內發送 %d 條信息后需要用戶認可才能繼續</string>
+    <string name="sms_security_check_limit_default">30 (默認)</string>
+
+    <string name="button_settings">硬體按鍵</string>
+    <string name="hardware_keys_enable_custom_title">使用自定義功能</string>
+    <string name="hardware_keys_home_key_title">Home 鍵</string>
+    <string name="hardware_keys_menu_key_title">菜單鍵</string>
+    <string name="hardware_keys_assist_key_title">搜索鍵</string>
+    <string name="hardware_keys_appswitch_key_title">應用鍵</string>
+    <string name="hardware_keys_volume_keys_title">音量鍵</string>
+    <string name="hardware_keys_short_press_title">短按行為</string>
+    <string name="hardware_keys_long_press_title">長按行為</string>
+    <string name="hardware_keys_double_tap_title">雙擊行為</string>
+    <string name="hardware_keys_show_overflow_title">顯示更多選項菜單鍵</string>
+    <string name="hardware_keys_show_overflow_summary">在程序內加入更多選項菜單鍵</string>
+    <string name="hardware_keys_show_overflow_toast_enable">更多選項菜單鍵在程序重啟前可能不會顯示</string>
+    <string name="hardware_keys_show_overflow_toast_disable">更多選項菜單鍵在程序重啟前可能不會被隱藏</string>
+    <string name="hardware_keys_action_nothing">無作用</string>
+    <string name="hardware_keys_action_menu">開啟/關閉菜單</string>
+    <string name="hardware_keys_action_app_switch">最近使用程序切換器</string>
+    <string name="hardware_keys_action_search">搜索助手</string>
+    <string name="hardware_keys_action_voice_search">語音搜索</string>
+    <string name="hardware_keys_action_in_app_search">程序內搜索</string>
+    <string name="hardware_keys_action_sleep">鎖屏</string>
+    <string name="home_wake_title">Home 鍵喚醒</string>
+    <string name="home_wake_summary">按 Home 鍵喚醒設備</string>
+    <string name="camera_wake_title">相機鍵喚醒</string>
+    <string name="camera_wake_summary">按下相機鍵將喚醒你的設備</string>
+    <string name="camera_sleep_on_release_title">屏幕窺探</string>
+    <string name="camera_sleep_on_release_summary">僅當按鈕被按下的時候，半按將會保持屏幕點亮</string>
+    <string name="camera_music_controls_title">相機鍵音樂控制</string>
+    <string name="camera_music_controls_summary">當屏幕變暗的時候，長按相機鍵將播放/暫停當前的音樂</string>
+    <string name="volume_wake_title">音量鍵喚醒</string>
+    <string name="volume_wake_summary">按音量鍵喚醒設備</string>
+    <string name="swap_volume_buttons_title">交換音量鍵</string>
+    <string name="swap_volume_buttons_summary">旋轉屏幕時交換音量鍵的布局</string>
+
+    <!-- Hardware tunables - Key backlight -->
+    <string name="button_backlight_title">背光燈</string>
+    <string name="button_backlight_enabled">點亮按鍵</string>
+    <string name="keyboard_backlight_enabled">點亮鍵盤</string>
+    <string name="button_backlight_seekbar_title">按鍵亮度</string>
+    <string name="keyboard_backlight_seekbar_title">鍵盤亮度</string>
+    <string name="backlight_timeout_title">背光超時</string>
+    <string name="backlight_timeout_unlimited">從不關閉</string>
+    <plurals name="backlight_timeout_time">
+        <item quantity="one"><xliff:g id="seconds">%d</xliff:g> 秒</item>
+        <item quantity="other"><xliff:g id="seconds">%d</xliff:g> 秒</item>
+    </plurals>
+
+    <string name="confirm_delete_apn">APN 將被刪除。</string>
+
+    <!-- Development shortcut -->
+    <string name="development_shortcut_title">開發者捷徑</string>
+    <string name="development_shortcut_summary">在通知欄及最近任務欄新增 \'清除數據\' 及 \'強制關閉\' 選項</string>
+
+    <!-- Power Widget -->
+    <string name="power_widget_title">電控小工具</string>
+    <string name="title_expanded_widget">顯示電控小工具</string>
+    <string name="power_widget_behavior">小工具行為</string>
+    <string name="title_expanded_hide_onchange">做出改變后關閉通知欄</string>
+    <string name="title_expanded_hide_scrollbar">隱藏滾動條</string>
+    <string name="title_widget_picker">電控按鈕</string>
+    <string name="summary_widget_picker">查看或更改目前顯示的電控按鈕</string>
+    <string name="title_widget_order">電控按鈕順序</string>
+    <string name="summary_widget_order">查看或更改電控按鈕的順序</string>
+    <string name="title_buttons">按鈕</string>
+    <string name="title_toggle_wifi">切換 Wi-Fi</string>
+    <string name="title_toggle_bluetooth">切換藍牙</string>
+    <string name="title_toggle_gps">切換 GPS</string>
+    <string name="title_toggle_sound">切換聲音模式</string>
+    <string name="title_toggle_brightness">切換亮度</string>
+    <string name="title_toggle_sync">切換同步</string>
+    <string name="title_toggle_wifiap">切換 Wifi 熱點</string>
+    <string name="title_toggle_screentimeout">切換屏幕超時</string>
+    <string name="title_toggle_mobiledata">切換移動數據</string>
+    <string name="title_toggle_lockscreen">切換鎖屏</string>
+    <string name="title_toggle_networkmode">切換 2G/3G</string>
+    <string name="title_toggle_autorotate">切換屏幕旋轉</string>
+    <string name="title_toggle_airplane">切換飛行模式</string>
+    <string name="title_toggle_flashlight">切換 LED 手電筒</string>
+    <string name="title_toggle_sleep">睡眠模式</string>
+    <string name="title_toggle_media_play_pause">媒體: 切換播放/暫停</string>
+    <string name="title_toggle_media_previous">媒體: 跳到前一首</string>
+    <string name="title_toggle_media_next">媒體: 跳到下一首</string>
+    <string name="title_toggle_lte">切換 LTE</string>
+    <string name="title_toggle_wimax">切換 WiMax</string>
+    <string name="title_toggle_reboot">重啟 (長按進入Recovery)</string>
+    <string name="title_button_modes">按鈕模式</string>
+    <string name="pref_brightness_mode_title">亮度切換模式</string>
+    <string name="pref_brightness_mode_summary">查看或更改亮度按鈕的切換模式</string>
+    <string name="cm_brightness_mode_auto">自動</string>
+    <string name="cm_brightness_mode_dim">最暗</string>
+    <string name="pref_network_mode_title">網絡切換模式</string>
+    <string name="pref_screentimeout_mode_title">屏幕超時切換模式</string>
+    <string name="pref_ring_mode_title">聲音切換模式</string>
+    <string name="pref_ring_mode_summary">選擇聲音按鈕的切換方式</string>
+    <string name="cm_sound_mode_silent">靜音</string>
+    <string name="cm_sound_mode_vibrate">震動</string>
+    <string name="cm_sound_mode_sound">鈴聲</string>
+    <string name="cm_sound_mode_soundVibrate">鈴聲＋震動</string>
+    <string name="pref_flash_mode_title">手電筒切換模式</string>
+    <string name="expanded_haptic_feedback_title">觸動反饋</string>
+
+    <!-- Power Widget toggle color -->
+    <string name="toggle_color_title">小工具開關色彩</string>
+    <string name="enable_toggle_colors_title">啟用開關色彩</string>
+    <string name="toggle_icon_color_on_title">圖示著色 (開)</string>
+    <string name="toggle_icon_color_on_summary">設定活動中開關顏色</string>
+    <string name="toggle_icon_color_off_title">圖示著色 (關)</string>
+    <string name="toggle_icon_color_off_summary">設定非活動中顏色</string>
+
+    <string name="button_headsethook_title">耳機</string>
+    <string name="button_headsethook_launch_voice_title">耳機控制語音服務</string>
+    <string name="button_headsethook_launch_voice_summary">按下耳機按鍵即啟用語用指令功能</string>
+
+    <string name="usb_mass_storage_title">USB 大容量存儲</string>
+    <string name="usb_mass_storage_summary">使用 USB 大容量存儲模式連接到計算機</string>
+
+    <!-- WhisperPush -->
+    <string name="whisperpush_title">WhisperPush</string>
+    <string name="whisperpush_registration_title">註冊帳戶</string>
+    <string name="whisperpush_registration_summary">註冊 WhisperPush帳戶啟用加密 SMS服務.</string>
+    <string name="whisperpush_identitykey_title">查看密鑰</string>
+
+    <!-- Message of dialog confirming that user wants to restart their device with a new runtime -->
+    <string name="custom_runtime_warning_title">警告</string>
+    <string name="custom_runtime_warning_message">ART 并沒有正式獲得 CyanogenMod支援. 此設置將包含僅用於實驗和有可能造成不穩定，死機，數據丟失或防止您的設備正常啟動的潛力. 訪問 &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;取得更多關於 ART模式&lt;/a&gt; 資訊.&lt;br/&gt;&lt;br/&gt;因此請勿提交相關錯誤報告.&lt;br/&gt;&lt;br/&gt;您是否確定將運行環境由 <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> 轉為 <xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string>
+
+    <string name="gps_download_data_wifi_only">只通過 WLAN 網絡下載GPS輔助數據</string>
+
+    <!-- Performance Settings-->
+    <string name="performance_settings_title">性能</string>
+    <string name="performance_settings_warning_title">請謹慎前進</string>
+    <string name="performance_settings_warning">這些設置完全是用於測試與實驗. 這里的改變將直接影響系統性能, 并可能導致系統不穩定, 數據丟失, 與硬件損傷.\n\n如果您更改了這里的設置, 我們請求您不要向我們提交錯誤報告.</string>
+    <string name="processor_title">處理器</string>
+    <string name="processor_summary">更改 CPU 調節器以及時鐘速度</string>
+    <string name="cpu_cur_freq_title">當前 CPU 頻率</string>
+    <string name="cpu_governors_title">CPU 調節器</string>
+    <string name="cpu_min_freq_title">最低 CPU 頻率</string>
+    <string name="cpu_max_freq_title">最高 CPU 頻率</string>
+    <string name="cpu_set_on_boot">啟動時設置</string>
+    <string name="cpu_set_on_boot_summary">在啟動時恢復當前的 CPU 設置</string>
+    <string name="io_scheds_title">I/O 調度器</string>
+    <string name="io_scheds_summary">更改 I/O 調度器</string>
+    <string name="io_sched_title">I/O 調度器</string>
+    <string name="io_sched_set_on_boot">啟動時設置</string>
+    <string name="io_sched_set_on_boot_summary">在啟動時恢復當前的 CPU 設置</string>
+    <string name="memory_management_title">內存管理</string>
+    <string name="memory_management_summary">自定義內存使用以改變系統性能</string>
+    <string name="pref_zram_title">zRam</string>
+    <string name="pref_zram_summary">壓縮內存以增加虛擬容量 (需要重啟)</string>
+    <string name="pref_ksm_title">KSM</string>
+    <string name="pref_ksm_summary">KSM 降低系統對內存的要求并提高性能</string>
+    <string name="pref_purgeable_assets_title">允許內存資源的清除</string>
+    <string name="pref_purgeable_assets_summary">清除位圖內存資源可以在系統需要時提供更多的內存 (需要重啟)</string>
+    <string name="pref_use_dithering_title">表面改進</string>
+    <string name="dithering_no_dither">禁用圖像抖動處理</string>
+    <string name="dithering_color_banding">修復色帶 (默認)</string>
+    <string name="dithering_blur_effect">修復色帶與模糊效果</string>
+    <string name="pref_use_16bpp_alpha_title">使用 16 位透明度</string>
+    <string name="pref_use_16bpp_alpha_summary">更佳的圖形性能, 但會降低圖像質量以及影響視覺效果 (需要重啟)</string>
+
+    <string name="lockpattern_settings_enable_error_path_title">顯示圖案錯誤</string>
+    <string name="lockpattern_settings_enable_dots_title">顯示圖案點</string>
+    <string name="lockscreen_vibrate_enabled_title">振動反饋</string>
+    <string name="lockscreen_vibrate_enabled_head">解鎖時產生振動反饋</string>
+
+    <string name="screen_security_category">屏幕安全性</string>
+    <string name="screen_security_title">鎖屏界面</string>
+    <string name="screen_security_summary">查看或改變鎖屏安全性、延遲以及超時設置</string>
+    <string name="additional_options_title">更多選項</string>
+    <string name="unlock_menu_unlock_title">菜單鍵解鎖</string>
+    <string name="unlock_menu_unlock_summary">按下菜單鍵即可解鎖設備</string>
+    <string name="unlock_home_unlock_title">Home 鍵解鎖</string>
+    <string name="unlock_home_unlock_summary">按下 Home 鍵即可解鎖設備</string>
+    <string name="unlock_camera_unlock_title">相機鍵解鎖</string>
+    <string name="unlock_camera_unlock_summary">按下相機鍵解鎖設備</string>
+    <string name="unlock_quick_unlock_control_title">快速解鎖</string>
+    <string name="unlock_quick_unlock_control_summary">當正確的 PIN 或密碼被輸入后，設備將自動解鎖</string>
+    <string name="delay_and_timeout_title">鎖定延遲</string>
+    <string name="slide_lock_delay_title">延遲屏幕鎖定</string>
+    <string name="slide_lock_timeout_delay_title">屏幕超時后的延遲</string>
+    <string name="slide_lock_screenoff_delay_title">屏幕關閉后的延遲</string>
+    <string name="slide_lock_delay_none">無延遲</string>
+    <string name="slide_lock_delay_1s">1 秒</string>
+    <string name="slide_lock_delay_5s">5 秒</string>
+    <string name="slide_lock_delay_10s">10 秒</string>
+    <string name="slide_lock_delay_15s">15 秒</string>
+    <string name="slide_lock_delay_30s">30 秒</string>
+    <string name="slide_lock_delay_1m">1 分鐘</string>
+    <string name="slide_lock_delay_5m">5 分鐘</string>
+    <string name="slide_lock_delay_10m">10 分鐘</string>
+    <string name="slide_lock_delay_30m">30 分鐘</string>
+
+    <string name="power_widget_additional_options_cat">其他設定</string>
+    <string name="brightness_location_title">調節亮度條位置</string>
+    <string name="brightness_slider_top">上方</string>
+    <string name="brightness_slider_bottom">下方</string>
+    <string name="brightness_slider_none">隱藏</string>
+
+    <string name="storage_rescan_media">重新掃描儲存裝置</string>
+    <string name="storage_rescan_media_complete">掃描完成</string>
+
+    <string name="accessibility_home_button_answers_call_prerefence_title">Home 鍵接聽電話</string>
+
+    <!-- Lock screen buttons -->
+    <string name="title_general">一般</string>
+    <string name="lockscreen_buttons_title">硬體按鍵</string>
+    <string name="lockscreen_buttons_summary">檢視或更改按鍵配置</string>
+    <string name="lockscreen_long_press_back_title">長按返回鍵</string>
+    <string name="lockscreen_long_press_home_title">長按Home鍵</string>
+    <string name="lockscreen_long_press_menu_title">長按菜單鍵</string>
+    <string name="lockscreen_buttons_no_action">沒有動作</string>
+    <string name="lockscreen_buttons_flashlight">手電筒</string>
+    <string name="lockscreen_buttons_next">播放器：下一首</string>
+    <string name="lockscreen_buttons_previous">播放器：上一首</string>
+    <string name="lockscreen_buttons_playpause">播放/暫停</string>
+    <string name="lockscreen_buttons_toggle_sound">聲音配置</string>
+    <string name="lockscreen_buttons_sleep">休眠</string>
+
+    <string name="unlock_camera_unlock_title">拍照鍵解鎖</string>
+    <string name="unlock_camera_unlock_summary">按下拍照鍵解除鎖屏</string>
+
+    <!-- Privacy Settings Header item -->
+    <string name="privacy_settings_cyanogenmod_title">私隱設定</string>
+    <string name="privacy_guard_reset_text">確認重置權限設定？</string>
+
+    <string name="app_ops_summaries_wifi_change">wifi 變動</string>
+    <string name="app_ops_labels_wifi_change">Wi-Fi 變動</string>
+    <string name="app_ops_summaries_bluetooth_change">藍牙變動</string>
+    <string name="app_ops_labels_bluetooth_change">藍牙變動</string>
+    <string name="app_ops_summaries_data_change">數據變動</string>
+    <string name="app_ops_labels_data_change">數據變動</string>
+    <string name="app_ops_summaries_alarm_wakeup">喚醒</string>
+    <string name="app_ops_labels_alarm_wakeup">喚醒</string>
+    <string name="app_ops_summaries_auto_start">自啟動</string>
+    <string name="app_ops_labels_auto_start">自啟動</string>
+    <string name="app_ops_categories_bootup">開機</string>
+    <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (使用 <xliff:g id="count">%2$s</xliff:g>)</string>
+    <string name="app_ops_allowed_count">允許 <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_ignored_count">拒絕 <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_both_count">允許 <xliff:g id="count">%1$s</xliff:g>, 拒絕 <xliff:g id="count">%2$s</xliff:g></string>
+    <plurals name="app_ops_count">
+        <item quantity="one">1次</item>
+        <item quantity="other">%d 次</item>
+    </plurals>
+    <string name="app_ops_show_user_apps">顯示用戶應用</string>
+    <string name="app_ops_show_system_apps">顯示內建應用</string>
+    <string name="app_ops_reset_counters">重置 允許/拒絕 計數器</string>
+    <string name="app_ops_reset_confirm_title">確認計數器重置</string>
+    <string name="app_ops_reset_confirm_mesg">你確定重置 AppOps 計數器？</string>
+
+    <!-- Sound settings screen, setting option name -->
+    <string name="volume_steps_alarm_title">音階數量: 鬧鐘</string>
+    <string name="volume_steps_dtmf_title">音階數量: DTMF按鍵音</string>
+    <string name="volume_steps_music_title">音階數量: 媒體</string>
+    <string name="volume_steps_notification_title">音階數量: 通知音</string>
+    <string name="volume_steps_ring_title">音階數量: 來電鈴聲</string>
+    <string name="volume_steps_system_title">音階數量: 系統音效</string>
+    <string name="volume_steps_voice_call_title">音階數量: 語音通話</string>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">螢幕錄像</string>
+
+    <string name="notification_recording_title">正在螢幕錄像中</string>
+
+    <string name="notification_recording_finished_title">螢幕錄像已儲存</string>
+    <string name="notification_recording_finished_text">輕觸即可檢視 %s</string>
+
+    <string name="notification_recording_error_title">螢幕錄像失敗</string>
+    <string name="notification_recording_error_text">%s</string>
+
+    <string name="notification_video_processing_title">正在處理錄制的視訊</string>
+
+    <string name="notification_action_stop_recording">停止錄制</string>
+    <string name="notification_action_show_touch">觸摸察看</string>
+
+    <string name="error_unable_to_create_directory">無法建立匯出目錄。</string>
+    <string name="error_external_storage_unavailable">沒有可用的外部儲存。</string>
+    <string name="error_unable_to_start">無法開啟錄制。</string>
+</resources>
