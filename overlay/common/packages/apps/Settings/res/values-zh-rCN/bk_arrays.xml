@@ -208,6 +208,9 @@
         <item>@string/app_ops_summaries_bluetooth_change</item>
         <item>@string/app_ops_summaries_data_change</item>
         <item>@string/app_ops_summaries_alarm_wakeup</item>
+        <item>@string/app_ops_summaries_send_mms</item>
+        <item>@string/app_ops_summaries_read_mms</item>
+        <item>@string/app_ops_summaries_write_mms</item>
         <item>@string/app_ops_summaries_auto_start</item>
     </string-array>
 
@@ -225,10 +228,10 @@
         <item>定位</item>
         <item>发布通知</item>
         <item>定位</item>
-        <item>带电话</item>
         <item>打电话</item>
         <item>读取短信数据</item>
         <item>写入短信数据</item>
+        <item>接收 短信/彩信</item>
         <item>接收 短信/彩信</item>
         <item>接收 短信/彩信</item>
         <item>接收 短信/彩信</item>
@@ -254,11 +257,14 @@
         <item>蓝牙音量</item>
         <item>保持唤醒</item>
         <item>监控定位</item>
-        <item>高频率监控定位</item>
+        <item>监控定位</item>
         <item>@string/app_ops_labels_wifi_change</item>
         <item>@string/app_ops_labels_bluetooth_change</item>
         <item>@string/app_ops_labels_data_change</item>
         <item>@string/app_ops_labels_alarm_wakeup</item>
+        <item>@string/app_ops_labels_send_mms</item>
+        <item>@string/app_ops_labels_read_mms</item>
+        <item>@string/app_ops_labels_write_mms</item>
         <item>@string/app_ops_labels_auto_start</item>
     </string-array>
 
@@ -269,5 +275,11 @@
         <item>媒体</item>
         <item>设备</item>
         <item>@string/app_ops_categories_bootup</item>
+    </string-array>
+
+    <string-array name="app_ops_permissions">
+        <item>已允许</item>
+        <item>已禁止</item>
+        <item>总是询问</item>
     </string-array>
 </resources>

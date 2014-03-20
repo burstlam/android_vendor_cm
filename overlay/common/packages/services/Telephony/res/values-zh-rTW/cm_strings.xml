@@ -56,9 +56,9 @@
     <string name="blacklist_notification_multiple"><xliff:g id="count">%d</xliff:g> 已拒絕</string>
     <string name="unblock_number">解禁</string>
 
-    <!-- Direct Call -->
-    <string name="direct_call_title">體感撥號</string>
-    <string name="direct_call_summary">手機放在耳邊時將撥打目前撥號器匯入的電話號碼</string>
+    <!-- Smart Phone Call -->
+    <string name="smart_phone_call_title">體感撥號</string>
+    <string name="smart_phone_call_summary">手機放在耳邊時將撥打目前撥號器匯入的電話號碼</string>
 
     <!-- IP Call -->
     <string name="dialer_ipcall_settings_title">IP撥號</string>
@@ -129,9 +129,12 @@ value (do nothing = 0, mute = 1, dismiss = 2) -->
     <string name="number_lookup">號碼搜尋</string>
     <string name="enable_forward_lookup_title">啟用附近地點</string>
     <string name="enable_forward_lookup_summary">顯示附近地點號碼</string>
+    <string name="enable_people_lookup_title">啟用附近人物</string>
+    <string name="enable_people_lookup_summary">顯示附近人物號碼</string>
     <string name="enable_reverse_lookup_title">逆向搜尋</string>
     <string name="enable_reverse_lookup_summary">逆向搜尋未知的來電號碼</string>
     <string name="choose_lookup_providers">選擇搜尋伺服器</string>
-    <string name="choose_forward_lookup_provider_title">搜尋附近地點伺服器</string>
-    <string name="choose_reverse_lookup_provider_title">逆向搜尋伺服器</string>
+    <string name="choose_forward_lookup_provider_title">選擇搜尋附近地點伺服器</string>
+    <string name="choose_people_lookup_provider_title">選擇搜尋附近人物伺服器</string>
+    <string name="choose_reverse_lookup_provider_title">選擇逆向搜尋伺服器</string>
 </resources>

@@ -57,6 +57,10 @@
     <string name="blacklist_notification_multiple"><xliff:g id="count">%d</xliff:g> 已拒绝</string>
     <string name="unblock_number">解禁</string>
 
+    <!-- Smart Phone Call -->
+    <string name="smart_phone_call_title">体感拨号</string>
+    <string name="smart_phone_call_summary">手机放在耳边时将拨打目前拨号器汇入的电话号码</string>
+
     <!-- Permission for notification-bar network toggle -->
     <string name="perm_change_mobile_network">改变模式 (2G/3G)</string>
     <string name="perm_change_mobile_network_desc">切换(2G/3G)模式，3G比较快，但耗电也比较多.</string>
@@ -115,9 +119,12 @@ value (do nothing = 0, mute = 1, dismiss = 2) -->
     <string name="number_lookup">号码搜寻</string>
     <string name="enable_forward_lookup_title">启用附近地点</string>
     <string name="enable_forward_lookup_summary">显示附近地点号码</string>
+    <string name="enable_people_lookup_title">启用附近人物</string>
+    <string name="enable_people_lookup_summary">显示附近人物号码</string>
     <string name="enable_reverse_lookup_title">逆向搜寻</string>
     <string name="enable_reverse_lookup_summary">逆向搜寻未知的来电号码</string>
     <string name="choose_lookup_providers">选择搜寻伺服器</string>
-    <string name="choose_forward_lookup_provider_title">搜寻附近地点伺服器</string>
-    <string name="choose_reverse_lookup_provider_title">逆向搜寻伺服器</string>
+    <string name="choose_forward_lookup_provider_title">选择搜寻附近地点伺服器</string>
+    <string name="choose_people_lookup_provider_title">选择搜寻附近人物伺服器</string>
+    <string name="choose_reverse_lookup_provider_title">选择逆向搜寻伺服器</string>
 </resources>

@@ -208,6 +208,9 @@
         <item>@string/app_ops_summaries_bluetooth_change</item>
         <item>@string/app_ops_summaries_data_change</item>
         <item>@string/app_ops_summaries_alarm_wakeup</item>
+        <item>@string/app_ops_summaries_send_mms</item>
+        <item>@string/app_ops_summaries_read_mms</item>
+        <item>@string/app_ops_summaries_write_mms</item>
         <item>@string/app_ops_summaries_auto_start</item>
     </string-array>
 
@@ -259,6 +262,9 @@
         <item>@string/app_ops_labels_bluetooth_change</item>
         <item>@string/app_ops_labels_data_change</item>
         <item>@string/app_ops_labels_alarm_wakeup</item>
+        <item>@string/app_ops_labels_send_mms</item>
+        <item>@string/app_ops_labels_read_mms</item>
+        <item>@string/app_ops_labels_write_mms</item>
         <item>@string/app_ops_labels_auto_start</item>
     </string-array>
 
@@ -269,5 +275,11 @@
         <item>媒體</item>
         <item>設備</item>
         <item>@string/app_ops_categories_bootup</item>
+    </string-array>
+
+    <string-array name="app_ops_permissions">
+        <item>已允許</item>
+        <item>已禁止</item>
+        <item>永遠詢問</item>
     </string-array>
 </resources>

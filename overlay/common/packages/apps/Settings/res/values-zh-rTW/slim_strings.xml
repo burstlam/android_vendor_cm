@@ -482,6 +482,9 @@
     <string name="quiet_hours_enabled">啟用免打擾時段</string>
     <string name="quiet_hours_enabled_on">免打擾時段將強制執行</string>
     <string name="quiet_hours_enabled_off">通知不受影響</string>
+    <string name="quiet_hours_auto_title">跟隨來電鈴聲設定自動執行</string>
+    <string name="quiet_hours_auto_silent">來電鈴聲設定靜音時，免打擾時段會自動執行</string>
+    <string name="quiet_hours_auto_vibrate">來電鈴聲設定靜音或振動時，免打擾時段會自動執行</string>
     <string name="quiet_hours_start">安靜開始時間</string>
     <string name="quiet_hours_start_summary">何時開始強制免打擾時段</string>
     <string name="quiet_hours_end">結束安靜時間</string>
@@ -532,6 +535,13 @@
     <string name="quiet_hours_alarm_and">" 及 "</string>
     <string name="quiet_hours_alarm_dialog_title">免打擾模式已取消</string>
     <string name="quiet_hours_alarm_message">" 已滿足取消免打擾模式條件!"</string>
+
+    <!-- Ringer mute options -->
+    <string name="quiet_hours_ringer">來電鈴聲</string>
+    <string name="quiet_hours_ringer_allow_all">播放所有來電</string>
+    <string name="quiet_hours_ringer_allow_contacts">只播放聯絡人來電鈴聲</string>
+    <string name="quiet_hours_ringer_allow_starred">只播放常用聯絡人來電鈴聲</string>
+    <string name="quiet_hours_ringer_mute_all">所有來電靜音</string>
 
     <!-- time range preference -->
     <string name="start_time_title">開始</string>
@@ -616,6 +626,10 @@
     <string name="lockscreen_lock_color_summary">鎖拖把色彩</string>
     <string name="lockscreen_dots_color_title">PIN矩陣點色彩</string>
     <string name="lockscreen_dots_color_summary">發光區點色彩</string>
+    <string name="lockscreen_targets_color_title">鎖屏目標色彩</string>
+    <string name="lockscreen_targets_color_summary">設置滑動解鎖目標色彩</string>
+    <string name="lockscreen_misc_color_title">其他色彩</string>
+    <string name="lockscreen_misc_color_summary">其他項目內容色彩</string>
 
     <!-- Lockscreen widget settings -->
     <string name="lockscreen_widgets_title">小工具</string>
@@ -700,8 +714,10 @@
     <string name="title_tile_camera">快拍鍵</string>
     <string name="title_tile_music">音樂</string>
     <string name="title_tile_reboot">重啟</string>
-    <string name="title_tile_theme">切換開關</string>
     <string name="title_tile_profile">情景模式</string>
+    <string name="title_tile_memory">內存空間</string>
+    <string name="title_tile_theme">切換主題</string>
+    <string name="title_tile_memory">手機容量</string>
     <string name="dynamic_tile_ime_switcher">輸入法切換</string>
     <string name="dynamic_tile_usb_tether">USB網絡分享</string>
     <string name="dynamic_tile_alarm">鬧鐘</string>
@@ -870,6 +886,7 @@
     <string name="shortcut_action_navbar">導航欄</string>
     <string name="shortcut_action_pie">Slim Pie 控制面板</string>
     <string name="shortcut_action_papie">PA Pie 控制面板</string>
+    <string name="shortcut_action_theme_switch">主題開關</string>
     <string name="pie_button_second_layer_summary">變更第二層按鍵內容</string>
     <string name="navigation_bar_warning_no_navigation_present">目前沒有啟用任何其他控制鍵，關閉導航欄會令您無法操作手機，請問您是否要先啟用SLIM PIE面板?</string>
     <string name="pie_warning_no_navigation_present">目前沒有啟用任何其他控制鍵，關閉導航欄會令您無法操作手機，請問您是否要先啟用導航欄?</string>
@@ -894,4 +911,16 @@
 
     <string name="shortcut_action_smart">智能下拉</string>
     <string name="shortcut_action_omniswitch">Omni最近任務面板</string>
+    <string name="shortcut_action_onthego">透視模式</string>
+    <string name="title_tile_onthego">透視模式</string>
+
+    <!-- Recent panel -->
+    <string name="recent_panel_category">Slim 最近任務</string>
+    <string name="recent_panel_scale_title">面板大小</string>
+    <string name="recent_panel_scale_summary">最近任務面大小比例.</string>
+    <string name="recent_panel_100">100% (默認)</string>
+
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <string name="recent_panel_lefty_mode_title">左方顯示</string>
+    <string name="recent_panel_lefty_mode_summary">最近任務面板從左方顯示.</string>
 </resources>

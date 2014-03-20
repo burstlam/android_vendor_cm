@@ -105,6 +105,7 @@
     <string name="quick_settings_reminder_help_title">点击</string>
     <string name="quick_settings_reminder_noti_dismiss">取消</string>
     <string name="quick_settings_reminder_help_message">点击此处编辑新提醒,长按则清除.</string>
+    <string name="quick_settings_reminder_noti_later">更新时间</string>
 
     <string name="chamber_disabled">密室已关闭</string>
     <string name="chamber_title">输入字串</string>
@@ -181,6 +182,7 @@
     <string name="quick_settings_quick_record_save">已储存</string>
     <string name="quick_settings_quick_record_play">播放中...</string>
     <string name="quick_settings_fcharge">USB快充</string>
+    <string name="quick_settings_internal_memory">内存容量</string>
 
     <string name="pie_date_format">yyyy MMM dd日, ccc</string>
 
@@ -209,4 +211,20 @@
 
     <!-- Smart PullDown Warning -->
     <string name="smart_pulldown_disabled">智能下拉已关闭</string>
+
+    <!-- On The Go -->
+    <string name="onthego_notif_ticker">透视模式启用</string>
+    <string name="onthego_notif_title">透视模式使用中</string>
+    <string name="onthego_notif_stop">停用</string>
+    <string name="onthego_notif_options">选项</string>
+    <string name="onthego_notif_error">不能启用服务</string>
+    <string name="onthego_notif_restart">重新启用服务</string>
+    <string name="onthego_notif_camera_changed">相机镜头改变</string>
+    <string name="onthego_transparency">透明度</string>
+    <string name="onthego_front_camera">使用前缀镜头</string>
+    <string name="onthego_service_toggle">自动重新启用服务</string>
+
+    <!-- On-The-Go Mode -->
+    <string name="quick_settings_onthego_back">后置镜头</string>
+    <string name="quick_settings_onthego_front">前缀镜头</string>
 </resources>

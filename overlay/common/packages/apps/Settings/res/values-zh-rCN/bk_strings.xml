@@ -86,7 +86,16 @@
     <string name="ad_privacy_apps_title">私隐模式程式清单</string>
     <string name="ad_privacy_apps_summary">清单中程式将不会显示任何提示</string>
     <string name="ad_threshold_summary">距离传感器必须先被复盖一段时间才会才进入口袋模式</string>
-
+    <string name="ad_shake_event_title">摇晃显示</string>
+    <string name="ad_shake_event_summary">摇一摇手机重新显示提示画面</string>
+    <string name="ad_shake_threshold_title">摇晃强度</string>
+    <string name="ad_shake_threshold_summary">设置显示所需要的摇晃强度</string>
+    <string name="ad_shake_quiet_hours_title">摇晃显示：无视免打扰时段</string>
+    <string name="ad_shake_quiet_hours_summary">免打扰时段中仍可用摇晃显示</string>
+    <string name="ad_shake_long_threshold_title">摇晃距隔</string>
+    <string name="ad_shake_long_threshold_summary">设置摇晃动作之间的间距时间</string>
+    <string name="ad_shake_timeout_title">摇晃有效时间</string>
+    <string name="ad_shake_timeout_summary">设置出现新的通知事项后，摇晃动作有效时间，设为0则表示一直启用.</string>
     <string name="ad_annoying_title">减少频繁通知</string>
     <string name="ad_annoying_summary">减少时段中通知数</string>
     <string name="ad_double_tap_title">双击关屏</string>
@@ -1124,4 +1133,9 @@ PA版本是全屏助手，简洁美观的方式在全屏模式中提供基本按
     <string name="touchwake_enable_summary">在逾时值时间内，可点击屏幕再次唤醒</string>
     <string name="touchwake_timeout_title">逾时</string>
     <string name="touchwake_timeout_summary">设定 touchwake 逾时值</string>
+
+    <string name="disable_fc_noti_title">禁用强制关闭</string>
+    <string name="disable_fc_noti_summary">禁用弹出强制关闭提示</string>
+
+    <string name="hide_battery_icon_title">隐藏电量图示</string>
 </resources>
