@@ -519,6 +519,7 @@
     <string name="quiet_hours_auto_disabled">禁用</string>
     <string name="quiet_hours_auto_enabled">所有號碼</string>
     <string name="quiet_hours_auto_contacts">已知聯絡人</string>
+    <string name="quiet_hours_auto_starred">常用聯絡人</string>
     <string name="quiet_hours_bypass_group">無視免打擾時段條件</string>
     <string name="quiet_hours_sms_code_null">[鬧鐘]</string>
     <string name="quiet_hours_sms_bypass_title">信息</string>
@@ -641,6 +642,8 @@
     <string name="lockscreen_disable_hints_summary">禁用鎖屏小工具周圍的光圈</string>
     <string name="lockscreen_use_widget_container_carousel_title">立體鎖屏動畫</string>
     <string name="lockscreen_use_widget_container_carousel_summary">在鎖屏頁面間切換時使用立體的鎖屏動畫</string>
+    <string name="lockscreen_widget_frame_title">隱藏外框</string>
+    <string name="lockscreen_widget_frame_summary">隱藏小工具背外框線</string>
 
     <string name="lock_numpad_random_title">PIN鍵盤洗牌排序</string>
     <string name="lock_numpad_random_dialog_title">PIN鍵盤洗牌亂數方式排序</string>

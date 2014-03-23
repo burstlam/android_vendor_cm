@@ -116,4 +116,7 @@
     <!-- In WiFi AP notification -->
     <string name="notify_turn_wifi_off_title">关闭 Wi-Fi </string>
     <string name="notify_turn_tethering_off_title">关闭绑定分享</string>
+
+    <!-- label for item that takes On-The-Go in the phone options dialog -->
+    <string name="global_action_onthego">透视模式</string>
 </resources>
