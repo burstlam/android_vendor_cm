@@ -23,6 +23,7 @@
     <string name="misc_short">其他</string>
     <string name="title_ui">使用者界面</string>
     <string name="lockscreen_settings_title">锁屏</string>
+    <string name="power_menu_expanded_desktop">全屏模式</string>
 
     <!-- Active Display -->
     <string name="ad_settings_title">锁屏动态通知</string>
@@ -1121,6 +1122,9 @@ PA版本是全屏助手，简洁美观的方式在全屏模式中提供基本按
     <!-- Recents Style -->
     <string name="recents_style_title">最近任务面格风格</string>
     <string name="recents_style_summary">选择 aosp 或 Slim 风格</string>
+    <string name="recents_style_aosp">AOSP 传统风格</string>
+    <string name="recents_style_aosp_mod">AOSP 修改风格</string>
+    <string name="recents_style_slim">Slim 风格</string>
 
     <!-- Expanded Desktop Style -->
     <string name="expanded_desktop_style">全屏模式</string>
@@ -1138,4 +1142,20 @@ PA版本是全屏助手，简洁美观的方式在全屏模式中提供基本按
     <string name="disable_fc_noti_summary">禁用弹出强制关闭提示</string>
 
     <string name="hide_battery_icon_title">隐藏电量图示</string>
+
+    <!-- Voice+ -->
+    <string name="voice_plus_summary">允许所有软件使用 Google Voice 传送 SMS 信息</string>
+
+    <!--User preferences settings-->
+    <string name="personalization">个人化设置</string>
+    <string name="reset_user_preferences_title">重置设置</string>
+    <string name="reset_user_preferences_summary">重置所有用户设置到系统默认</string>
+    <string name="reset_user_preferences_dialog">确定重置所有用户设置?</string>
+
+    <!-- Circle App Launcher-->
+    <string name="category_app_circle_bar_title">转盘引导捷径</string>
+    <string name="app_circle_bar_title">转盘引导捷径</string>
+    <string name="app_circle_bar_summary">在屏幕右侧滑出转盘引导捷径</string>
+    <string name="app_circle_bar_included_apps_title">白名单</string>
+    <string name="app_circle_bar_included_apps_summary">选择您的显示软件清单</string>
 </resources>

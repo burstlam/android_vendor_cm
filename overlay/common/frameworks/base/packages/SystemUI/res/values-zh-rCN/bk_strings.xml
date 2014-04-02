@@ -227,4 +227,7 @@
     <!-- On-The-Go Mode -->
     <string name="quick_settings_onthego_back">后置镜头</string>
     <string name="quick_settings_onthego_front">前缀镜头</string>
+
+    <!-- Circle App Sidebar -->
+    <string name="app_stop_item_title">清除程序</string>
 </resources>
