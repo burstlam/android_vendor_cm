@@ -400,19 +400,6 @@
     <string name="media_scanner_on_boot_ask">询问扫描 (显示通知)</string>
     <string name="media_scanner_on_boot_disabled">不扫描媒体</string>
 
-    <!-- screen state service -->
-    <string name="screen_state_toggles_title">省电模式</string>
-    <string name="screen_state_toggles_enable_title">启用</string>
-    <string name="screen_state_toggles_enable_summary">关屏后改变系统设定，亮屏后将恢复原有设定.</string>
-    <string name="screen_state_toggles_mobile_title">数据模式</string>
-    <string name="screen_state_toggles_location_title">位置</string>
-    <string name="screen_state_toggles_twog">转用2G模式</string>
-    <string name="screen_state_toggles_twog_summary">关屏后将转为2G模式</string>
-    <string name="screen_state_toggles_gps">禁用 GPS</string>
-    <string name="screen_state_toggles_gps_summary">关屏后将停用GPS位置服务</string>
-    <string name="screen_state_toggles_mobile_data">禁用数据</string>
-    <string name="screen_state_toggles_mobile_data_summary">关屏后将会断开数据连接</string>
-
     <!-- wakelock blocker -->
     <string name="wakelock_blocker">Wakelock 管理</string>
     <string name="wakelock_blocker_title">启用</string>
@@ -840,25 +827,6 @@ PA版本是全屏助手，简洁美观的方式在全屏模式中提供基本按
     <string name="camera_sounds_entry_stock">默认 (bloop)</string>
     <string name="camera_sounds_entry_realistic">真实 (点击)</string>
     <string name="camera_sounds_entry_off">关闭 (在某些地区可能违法！)</string>
-
-    <!-- Telo Radio -->
-    <string name="telo_radio_settings_title">数据连接（省电）管理</string>
-    <string name="telo_radio_options_category">亮屏分配</string>
-    <string name="telo_radio_lte_title">优先连接LTE</string>
-    <string name="telo_radio_lte_summary">解锁后优先使用4G数据连接.</string>
-    <string name="telo_radio_2g_wifi_title">Wi-Fi+2G</string>
-    <string name="telo_radio_2g_wifi_title_summary">Wi-Fi连接时使用2G连接.</string>
-    <string name="telo_radio_2g_screenoff_category">关屏分配</string>
-    <string name="telo_radio_2g_screenoff_title">2G模式</string>
-    <string name="telo_radio_2g_screenoff_summary">关屏时使用2G方式连接.</string>
-    <string name="telo_radio_2g_screenoff_timeout_title">改变连接（关屏）超时值</string>
-    <string name="telo_radio_2g_3min">3 分钟</string>
-    <string name="telo_radio_2g_5min">5 分钟</string>
-    <string name="telo_radio_2g_10min">10 分钟</string>
-    <string name="telo_radio_2g_15min">15 分钟</string>
-    <string name="telo_radio_2g_20min">20 分钟</string>
-    <string name="telo_radio_go_3g_unlock_title">优先连接3G</string>
-    <string name="telo_radio_go_3g_unlock_summary">解锁恢复3G连接.</string>
 
     <string name="lockscreen_glowpad_torch_title">解锁圈手电筒</string>
     <string name="lockscreen_glowpad_torch_summary">双击按住滑动锁把打开手电筒</string>
