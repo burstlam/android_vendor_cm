@@ -230,4 +230,27 @@
 
     <!-- Circle App Sidebar -->
     <string name="app_stop_item_title">清除程序</string>
+
+    <!-- Battery Saver -->
+    <string name="network_4G">4G/LTE</string>
+    <string name="network_3G_only">僅 3G</string>
+    <string name="network_3G_auto">2G/3G 自動</string>
+    <string name="network_3G">偏好 2G/3G</string>
+    <string name="network_2G">僅 2G</string>
+    <string name="quick_settings_network_unknown">未知</string>
+
+    <!-- battery saver mode -->
+    <string name="battery_saver_start">省電已啟用</string>
+    <string name="battery_saver_stop">省電已禁用</string>
+    <string name="battery_saver_change">省電模式變更網路到</string>
+    <string name="battery_saver_network">網路已回復</string>
+    <string name="battery_saver_data">移動資料已回復</string>
+    <string name="battery_saver_wifi">Wi-Fi 已回復</string>
+    <string name="battery_saver_all">所有配置已回復</string>
+    <string name="battery_saver_no_changes">無配置被回復</string>
+    <string name="battery_saver_enable_ticker">省電模式正在執行...</string>
+    <string name="battery_saver_enable_title">省電模式</string>
+    <string name="battery_saver_airplane_ticker">飛行模式被省電模式啟用</string>
+    <string name="battery_saver_airplane_text">飛行模式被省電模式啟用，因為已無訊號 5 分鐘</string>
+    <string name="battery_saver_disable">禁用</string>
 </resources>

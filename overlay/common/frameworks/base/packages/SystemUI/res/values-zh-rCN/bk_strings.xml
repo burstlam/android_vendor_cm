@@ -230,4 +230,36 @@
 
     <!-- Circle App Sidebar -->
     <string name="app_stop_item_title">清除程序</string>
+
+    <!-- Battery Saver -->
+    <string name="network_4G">4G/LTE</string>
+    <string name="network_3G_only">仅 3G</string>
+    <string name="network_3G_auto">2G/3G 自动</string>
+    <string name="network_3G">首选 2G/3G</string>
+    <string name="network_2G">仅 2G</string>
+    <string name="quick_settings_network_unknown">未知</string>
+
+    <!-- Battery Saver -->
+    <string name="network_4G">4G/LTE</string>
+    <string name="network_3G_only">仅 3G</string>
+    <string name="network_3G_auto">2G/3G 自动</string>
+    <string name="network_3G">首选 2G/3G</string>
+    <string name="network_2G">仅 2G</string>
+    <string name="quick_settings_network_unknown">未知</string>
+
+    <!-- battery saver mode -->
+    <string name="battery_saver_start">省电已启用</string>
+    <string name="battery_saver_stop">省电已禁用</string>
+    <string name="battery_saver_change">省电模式更改网络到</string>
+    <string name="battery_saver_network">网络已恢复</string>
+    <string name="battery_saver_data">移动数据已恢复</string>
+    <string name="battery_saver_wifi">Wi-Fi 已恢复</string>
+    <string name="battery_saver_all">所有分配已恢复</string>
+    <string name="battery_saver_no_changes">无分配被恢复</string>
+    <string name="battery_saver_enable_ticker">省电模式正在执行...</string>
+    <string name="battery_saver_enable_title">省电模式</string>
+    <string name="battery_saver_airplane_ticker">飞行模式被省电模式启用</string>
+    <string name="battery_saver_airplane_text">飞行模式被省电模式启用，因为已无信号 5 分钟</string>
+    <string name="battery_saver_disable">禁用</string>
+
 </resources>
