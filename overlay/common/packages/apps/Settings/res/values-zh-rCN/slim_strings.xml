@@ -925,4 +925,22 @@
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">左方显示</string>
     <string name="recent_panel_lefty_mode_summary">最近任务面板从左方显示.</string>
+
+    <string name="recent_panel_expanded_mode_title">展开方式</string>
+    <string name="recent_panel_expanded_mode_summary">最近任务栏内容显示方式</string>
+    <string name="recent_panel_expanded_mode_auto">自动 (默认)</string>
+    <string name="recent_panel_expanded_mode_always">永远展开</string>
+    <string name="recent_panel_expanded_mode_never">永不</string>
+
+    <!-- Shake to secure -->
+    <string name="shake_to_secure_title">摇动锁</string>
+    <string name="shake_to_secure_summary">锁屏显示时摇动手机才会套用安全设置</string>
+    <string name="shake_to_secure_dlg_title">警告:</string>
+    <string name="shake_to_secure_dlg_message">除非您在锁屏时候摇动手机或摇动锁逾时值，否则手机不会上锁.(解锁后会重置初始状态)</string>
+    <string name="shake_secure_timeout_title">摇动锁逾时值</string>
+    <string name="shake_secure_timeout_disabled">永不</string>
+    <string name="shake_secure_timeout_1min">1 分钟后自动锁上</string>
+    <string name="shake_secure_timeout_5min">5 分钟后自动锁上</string>
+    <string name="shake_secure_timeout_10min">10 分钟后自动锁上</string>
+    <string name="shake_secure_timeout_30min">30 分钟后自动锁上</string>
 </resources>

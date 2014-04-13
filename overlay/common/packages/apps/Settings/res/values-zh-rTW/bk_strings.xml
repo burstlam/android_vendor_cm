@@ -1209,4 +1209,7 @@ PA版本是全屏助手，簡潔美觀的方式在全屏模式中提供基本按
     <string name="battery_saver_network_cdma_title">CDMA 網路</string>
     <string name="battery_saver_system_title">系統選項</string>
     <string name="status_bar_toggle_info">屏幕自動亮度調節使用中</string>
+
+    <!-- allow multiuser -->
+    <string name="multiuser_preference_title">多用戶模式</string>
 </resources>

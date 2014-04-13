@@ -926,4 +926,22 @@
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">左方顯示</string>
     <string name="recent_panel_lefty_mode_summary">最近任務面板從左方顯示.</string>
+
+    <string name="recent_panel_expanded_mode_title">展開方式</string>
+    <string name="recent_panel_expanded_mode_summary">最近任務欄內容顯示方式</string>
+    <string name="recent_panel_expanded_mode_auto">自動 (默認)</string>
+    <string name="recent_panel_expanded_mode_always">永遠展開</string>
+    <string name="recent_panel_expanded_mode_never">永不</string>
+
+    <!-- Shake to secure -->
+    <string name="shake_to_secure_title">搖動鎖</string>
+    <string name="shake_to_secure_summary">鎖屏顯示時搖動手機才會套用安全設置</string>
+    <string name="shake_to_secure_dlg_title">警告:</string>
+    <string name="shake_to_secure_dlg_message">除非您在鎖屏時候搖動手機或搖動鎖逾時值，否則手機不會上鎖.(解鎖後會重置初始狀態)</string>
+    <string name="shake_secure_timeout_title">搖動鎖逾時值</string>
+    <string name="shake_secure_timeout_disabled">永不</string>
+    <string name="shake_secure_timeout_1min">1 分鐘後自動鎖上</string>
+    <string name="shake_secure_timeout_5min">5 分鐘後自動鎖上</string>
+    <string name="shake_secure_timeout_10min">10 分鐘後自動鎖上</string>
+    <string name="shake_secure_timeout_30min">30 分鐘後自動鎖上</string>
 </resources>
