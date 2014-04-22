@@ -231,13 +231,12 @@
     <!-- Circle App Sidebar -->
     <string name="app_stop_item_title">清除程序</string>
 
-    <!-- Battery Saver -->
-    <string name="network_4G">4G/LTE</string>
-    <string name="network_3G_only">仅 3G</string>
-    <string name="network_3G_auto">2G/3G 自动</string>
-    <string name="network_3G">首选 2G/3G</string>
-    <string name="network_2G">仅 2G</string>
+    <!-- Power Saver -->
+    <string name="quick_settings_battery_saver_label">省电模式</string>
+    <string name="quick_settings_battery_saver_off_label">省电模式：关闭</string>
+    <string name="quick_settings_network_type">状态</string>
     <string name="quick_settings_network_unknown">未知</string>
+    <string name="quick_settings_network_disable">没有网络</string>
 
     <!-- Battery Saver -->
     <string name="network_4G">4G/LTE</string>
@@ -262,4 +261,9 @@
     <string name="battery_saver_airplane_text">飞行模式被省电模式启用，因为已无信号 5 分钟</string>
     <string name="battery_saver_disable">禁用</string>
 
+    <!-- GPS Tile-->
+    <string name="location_mode_high_accuracy_title">准确度高</string>
+    <string name="location_mode_battery_saving_title">耗电量低</string>
+    <string name="location_mode_sensors_only_title">仅限设备</string>
+    <string name="location_mode_location_off_title">关闭定位</string>
 </resources>

@@ -231,6 +231,13 @@
     <!-- Circle App Sidebar -->
     <string name="app_stop_item_title">清除程序</string>
 
+    <!-- Power Saver -->
+    <string name="quick_settings_battery_saver_label">省電模式</string>
+    <string name="quick_settings_battery_saver_off_label">省電模式：關閉</string>
+    <string name="quick_settings_network_type">狀態</string>
+    <string name="quick_settings_network_unknown">未知</string>
+    <string name="quick_settings_network_disable">沒有網絡</string>
+
     <!-- Battery Saver -->
     <string name="network_4G">4G/LTE</string>
     <string name="network_3G_only">僅 3G</string>
@@ -253,4 +260,10 @@
     <string name="battery_saver_airplane_ticker">飛行模式被省電模式啟用</string>
     <string name="battery_saver_airplane_text">飛行模式被省電模式啟用，因為已無訊號 5 分鐘</string>
     <string name="battery_saver_disable">禁用</string>
+
+    <!-- GPS Tile-->
+    <string name="location_mode_high_accuracy_title">高精確度</string>
+    <string name="location_mode_battery_saving_title">節約耗電量</string>
+    <string name="location_mode_sensors_only_title">僅限裝置</string>
+    <string name="location_mode_location_off_title">關閉定位</string>
 </resources>

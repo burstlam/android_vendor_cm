@@ -721,6 +721,8 @@
     <string name="title_tile_memory">內存空間</string>
     <string name="title_tile_theme">切換主題</string>
     <string name="title_tile_memory">手機容量</string>
+    <string name="title_tile_onthego">透視模式</string>
+    <string name="title_tile_batterysaver">省電模式</string>
     <string name="dynamic_tile_ime_switcher">輸入法切換</string>
     <string name="dynamic_tile_usb_tether">USB網絡分享</string>
     <string name="dynamic_tile_alarm">鬧鐘</string>
@@ -915,7 +917,6 @@
     <string name="shortcut_action_smart">智能下拉</string>
     <string name="shortcut_action_omniswitch">Omni最近任務面板</string>
     <string name="shortcut_action_onthego">透視模式</string>
-    <string name="title_tile_onthego">透視模式</string>
 
     <!-- Recent panel -->
     <string name="recent_panel_category">Slim 最近任務</string>

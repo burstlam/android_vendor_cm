@@ -88,6 +88,9 @@
     <string name="ad_privacy_apps_title">私隱模式程式清單</string>
     <string name="ad_privacy_apps_summary">清單中程式將不會顯示任何提示</string>
     <string name="ad_threshold_summary">距離傳感器必須先被覆蓋一段時間才會才進入口袋模式</string>
+    <string name="ad_shake_event_settings_title">搖晃顯示</string>
+    <string name="ad_shake_force_title">默認活動</string>
+    <string name="ad_shake_force_summary">搖晃手機後才會顯示新的提示</string>
     <string name="ad_shake_event_title">搖晃顯示</string>
     <string name="ad_shake_event_summary">搖一搖手機重新顯示提示畫面</string>
     <string name="ad_shake_threshold_title">搖晃強度</string>
@@ -1120,7 +1123,9 @@ PA版本是全屏助手，簡潔美觀的方式在全屏模式中提供基本按
     <string name="disable_fc_noti_title">禁用強制關閉</string>
     <string name="disable_fc_noti_summary">禁用彈出強制關閉提示</string>
 
-    <string name="hide_battery_icon_title">隱藏電量圖示</string>
+    <!--<string name="hide_battery_icon_title">隱藏電量圖示</string>-->
+    <string name="battery_status_icon_percentage_jb">電量圖示帶百份比 (JB 風格)</string>
+    <string name="battery_status_gone">隱藏</string>
 
     <!-- Voice+ -->
     <string name="voice_plus_summary">允許所有軟件使用 Google Voice 傳送 SMS 信息</string>
@@ -1212,4 +1217,13 @@ PA版本是全屏助手，簡潔美觀的方式在全屏模式中提供基本按
 
     <!-- allow multiuser -->
     <string name="multiuser_preference_title">多用戶模式</string>
+
+    <!-- bluetooth accept all files-->
+    <string name="bluetooth_accept_all_files">接受所有文件</string>
+
+    <!-- Notification Panel Shortcuts -->
+    <string name="notification_bar_shortcuts">捷徑</string>
+    <string name="clock_shortcut_title">時間面板捷徑</string>
+    <string name="calendar_shortcut_title">日期捷徑</string>
+    <string name="default_shortcut">默認</string>
 </resources>
