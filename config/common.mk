@@ -185,7 +185,8 @@ PRODUCT_PACKAGES += \
     libscreenrecorder \
     HostsFileManager \
     OmniSwitch \
-    GPSOptimizer
+    GPSOptimizer \
+    AndroidKernelTweaker
 
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
