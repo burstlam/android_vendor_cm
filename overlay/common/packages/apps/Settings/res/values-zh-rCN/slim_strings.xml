@@ -734,8 +734,8 @@
     <string name="help_qs_message">想新增磁贴开关, 请按新增图示并选择磁贴. 如欲更改排序, 长按需要更改磁贴然后拖动到更改位置。如欲删除磁贴，长按并拖到删除键位\n\n取消则把所有磁贴删除.</string>
 
     <!-- QuickSettings style options -->
-    <string name="quicksettings_tiles_style">快速设置风格</string>
-    <string name="summary_quicksettings_tiles_style">显示或改变快速设置风格</string>
+    <string name="quicksettings_tiles_style">磁贴/快速设定风格</string>
+    <string name="summary_quicksettings_tiles_style">改变磁贴快速设置风格</string>
     <string name="quicksettings_tiles_style_additional_options">附加选项</string>
     <string name="tiles_per_row_title">每行小工具数量</string>
     <string name="tiles_per_row_duplicate_landscape_title">横屏模式</string>

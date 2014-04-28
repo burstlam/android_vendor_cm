@@ -24,6 +24,7 @@
     <string name="title_ui">使用者界面</string>
     <string name="lockscreen_settings_title">锁屏</string>
     <string name="power_menu_expanded_desktop">全屏模式</string>
+    <string name="kernel_tweaker_title">性能调校</string>
 
     <!-- Active Display -->
     <string name="ad_settings_title">锁屏动态通知</string>
@@ -35,8 +36,8 @@
     <string name="ad_text_summary">围绕圆环显示通知文字.</string>
     <string name="ad_all_notifications_title">全部通知</string>
     <string name="ad_all_notifications_summary">显示全部通知内容，包括不能取消系统信息</string>
-    <string name="ad_hide_low_priority_title">隐藏非重要信息</string>
-    <string name="ad_hide_low_priority_summary">隐藏非重要信息,例如来自Google Now提醒.</string>
+    <string name="ad_hide_low_priority_title">隐藏低优先信息</string>
+    <string name="ad_hide_low_priority_summary">隐藏低优先信息,例如来自Google Now提醒.</string>
     <string name="ad_pocket_mode_title">口袋模式</string>
     <string name="ad_pocket_mode_summary">利用光线传感器，从口袋拿出时候自动显示信息.</string>
     <string name="ad_sunlight_mode_title">日照模式</string>
@@ -44,13 +45,13 @@
     <string name="ad_redisplay_title">定时重复显示通知内容</string>
     <string name="ad_customizations_title">自定义设置</string>
     <string name="ad_excluded_apps_title">锁屏动态通知:黑名单</string>
-    <string name="ad_excluded_apps_summary">选择那些不要显示软件的提示.</string>
+    <string name="ad_excluded_apps_summary">选择那些应用程序将排除不会显示.</string>
     <string name="ad_brightness_title">提示屏幕亮度</string>
     <string name="ad_brightness_summary">没有设置自动屏幕亮度时候显示的亮度</string>
     <string name="ad_show_date_title">显示日期</string>
     <string name="ad_show_date_summary">时钟上显示日期</string>
     <string name="ad_show_ampm_title">显示上下午</string>
-    <string name="ad_show_ampm_summary">12小时时间格式时候套用</string>
+    <string name="ad_show_ampm_summary">当使用12小时制时在时间后显示“上午/下午”</string>
     <string name="ad_redisplay_never">永不</string>
     <string name="ad_redisplay_1m">1 分钟</string>
     <string name="ad_redisplay_5m">5 分钟</string>
@@ -66,7 +67,7 @@
     <string name="ad_timeout_10s">10 秒</string>
     <string name="ad_timeout_15s">15 秒</string>
     <string name="ad_timeout_25s">25 秒</string>
-    <string name="ad_threshold_title">距离传感器感应距间</string>
+    <string name="ad_threshold_title">距离感应时间阀值</string>
     <string name="ad_turnoff_mode_title">关闭屏幕</string>
     <string name="ad_turnoff_mode_summary">当使用动态提示时，没有任何操作后再次放回口袋中便重新关闭屏幕.</string>
     <string name="ad_threshold_0s">立即</string>
@@ -82,7 +83,7 @@
     <string name="ad_content_summary">使用锁屏动态通知提示风格取代系统风格显示通知提示内容</string>
     <string name="ad_pocket_mode_notifications">锁屏动态通知 (仅于新通知)</string>
     <string name="ad_pocket_mode_always">锁屏动态通知 (永远使用)</string>
-    <string name="ad_bypass_title">跳过锁屏动态通知</string>
+    <string name="ad_bypass_title">略过模式</string>
     <string name="ad_bypass_summary">当设定了锁屏安全设定，将直接跳过锁屏动态通知画面</string>
     <string name="ad_privacy_apps_title">私隐模式程式清单</string>
     <string name="ad_privacy_apps_summary">清单中程式将不会显示任何提示</string>
@@ -144,31 +145,6 @@
 
     <!-- Font size sample text -->
     <string name="font_size_sample">预览</string>
-
-    <!-- ListView animation -->
-    <string name="interface_settings_animation_title">动画选项</string>
-    <string name="listview_animation_title">清单动画</string>
-    <string name="listview_off">关闭</string>
-    <string name="listview_wave_left">波浪 (左)</string>
-    <string name="listview_wave_right">波浪 (右)</string>
-    <string name="listview_alpha">淡入淡出</string>
-    <string name="listview_scale">缩放</string>
-    <string name="listview_stack_top">堆栈 (上)</string>
-    <string name="listview_stack_bottom">堆栈 (下)</string>
-    <string name="listview_unfold">展开</string>
-    <string name="listview_fold">折叠</string>
-    <string name="listview_translate_left">飞入 (左)</string>
-    <string name="listview_translate_right">飞入 (右)</string>
-
-    <!-- ListView interpolator -->
-    <string name="listview_interpolator_title">清单变化</string>
-    <string name="listview_accelerate_interpolator">越来越快</string>
-    <string name="listview_decelerate_interpolator">越来越慢</string>
-    <string name="listview_accelerate_decelerate_interpolator">先加速后减速</string>
-    <string name="listview_anticipate_interpolator">延迟加速</string>
-    <string name="listview_overshoot_interpolator">快速延迟反弹</string>
-    <string name="listview_anticipate_overshoot_interpolator">延迟反弹</string>
-    <string name="listview_bounce_interpolator">终点弹球</string>
 
     <!-- Lock Gesture settings -->
     <string name="unlock_set_unlock_gesture_title">手势</string>
@@ -1215,4 +1191,174 @@ PA版本是全屏助手，简洁美观的方式在全屏模式中提供基本按
     <string name="clock_shortcut_title">时间面板捷径</string>
     <string name="calendar_shortcut_title">日期捷径</string>
     <string name="default_shortcut">默认</string>
+
+    <!-- Telo Radio -->
+    <string name="telo_radio_settings_title">数据连接（省电）管理</string>
+    <string name="telo_radio_options_category">亮屏分配</string>
+    <string name="telo_radio_lte_title">优先连接LTE</string>
+    <string name="telo_radio_lte_summary">解锁后优先使用4G数据连接.</string>
+    <string name="telo_radio_2g_wifi_title">Wi-Fi+2G</string>
+    <string name="telo_radio_2g_wifi_title_summary">Wi-Fi连接时使用2G连接.</string>
+    <string name="telo_radio_2g_screenoff_category">关屏分配</string>
+    <string name="telo_radio_2g_screenoff_title">2G模式</string>
+    <string name="telo_radio_2g_screenoff_summary">关屏时使用2G方式连接.</string>
+    <string name="telo_radio_2g_screenoff_timeout_title">改变连接（关屏）超时值</string>
+    <string name="telo_radio_2g_3min">3 分钟</string>
+    <string name="telo_radio_2g_5min">5 分钟</string>
+    <string name="telo_radio_2g_10min">10 分钟</string>
+    <string name="telo_radio_2g_15min">15 分钟</string>
+    <string name="telo_radio_2g_20min">20 分钟</string>
+    <string name="telo_radio_go_3g_unlock_title">优先连接3G</string>
+    <string name="telo_radio_go_3g_unlock_summary">解锁恢复3G连接.</string>
+
+
+    <!-- ListView animation -->
+    <string name="interface_settings_animation_title">动画选项</string>
+    <string name="listview_title">清单动画</string>
+    <string name="system_animation_title">系统动画</string>
+    <string name="listview_animation_title">清单动画</string>
+    <string name="listview_off">关闭</string>
+    <string name="listview_wave_left">波浪 (左)</string>
+    <string name="listview_wave_right">波浪 (右)</string>
+    <string name="listview_alpha">淡入淡出</string>
+    <string name="listview_scale">缩放</string>
+    <string name="listview_stack_top">堆栈 (上)</string>
+    <string name="listview_stack_bottom">堆栈 (下)</string>
+    <string name="listview_unfold">展开</string>
+    <string name="listview_fold">折叠</string>
+    <string name="listview_translate_left">飞入 (左)</string>
+    <string name="listview_translate_right">飞入 (右)</string>
+    <string name="listview_duration_title">清单动画长度</string>
+    <string name="listview_cache_title">清单动画缓存</string>
+    <string name="listview_cache_none">不设置任何缓存</string>
+    <string name="listview_cache_anim">动画缓存</string>
+    <string name="listview_cache_scroll">滚动缓存</string>
+    <string name="listview_cache_all">动画及滚动</string>
+    <string name="listview_blacklist_title">排除软件</string>
+    <string name="listview_blacklist_summary">排除在外软件将不会显示清单动画</string>
+    <string name="listview_test">测试动画</string>
+    <string name="listview_test_summary">打开测试动画对话视窗</string>
+    <string name="listview_test_instructions">滑动测试效果</string>
+    <string name="listview_test_item">清单项目</string>
+
+    <!-- ListView interpolator -->
+    <string name="listview_interpolator_title">清单变化</string>
+    <string name="listview_accelerate_interpolator">越来越快</string>
+    <string name="listview_decelerate_interpolator">越来越慢</string>
+    <string name="listview_accelerate_decelerate_interpolator">先加速后减速</string>
+    <string name="listview_anticipate_interpolator">延迟加速</string>
+    <string name="listview_overshoot_interpolator">快速延迟反弹</string>
+    <string name="listview_anticipate_overshoot_interpolator">延迟反弹</string>
+    <string name="listview_bounce_interpolator">终点弹球</string>
+
+    <!-- Animation Strings -->
+    <string name="interface_animation_title">动画效果</string>
+    <string name="animation_default">默认</string>
+    <string name="animation_fade">淡入</string>
+    <string name="animation_slide_right">右侧滑入</string>
+    <string name="animation_slide_left">左侧滑入</string>
+    <string name="animation_slide_right_no_fade">右侧滑入 (没有淡出效果)</string>
+    <string name="animation_slide_left_no_fade">左侧滑入 (没有淡出效果)</string>
+    <string name="animation_slide_up">底部滑入</string>
+    <string name="animation_slide_down">顶部滑入</string>
+    <string name="animation_translucent">半透明</string>
+    <string name="animation_grow_shrink">淡入 (顶部)</string>
+    <string name="animation_grow_shrink_center">淡入 (正中)</string>
+    <string name="animation_grow_shrink_bottom">淡入 (底部)</string>
+    <string name="animation_grow_shrink_left">淡入 (左侧)</string>
+    <string name="animation_grow_shrink_right">淡入 (右侧)</string>
+    <string name="animation_random">随机</string>
+
+    <!-- Scrolling Animation Controls -->
+    <string name="scrolling_title">滚动修改</string>
+    <string name="scrolling_summary">查看或更改滚动动画</string>
+    <string name="animation_fling_velocity_title">猛冲速度</string>
+    <string name="animation_scroll_friction_title">滚动摩擦</string>
+    <string name="animation_overscroll_distance_title">超过滚动距离</string>
+    <string name="animation_overfling_distance_title">超过猛冲距离</string>
+    <string name="animation_duration_summary">设置时间</string>
+    <string name="animation_no_scroll_title">自定义滚动修改</string>
+    <string name="animation_no_scroll_summary_on">已启用</string>
+    <string name="animation_no_scroll_summary_off">已禁用</string>
+    <string name="scroll_disclaimer_summary">注意：大多数应用需要重新启动使自定义数值生效</string>
+    <string name="animation_settings_reset_message">重置所有动画到默认值？</string>
+
+    <!-- Toast Animation -->
+    <string name="toast_animation_title">Toast 弹出动画</string>
+    <string name="toast_none_animation">无</string>
+    <string name="toast_default_animation">默认</string>
+    <string name="toast_fade_animation">淡入淡出</string>
+    <string name="toast_SlideRight_animation">右侧滑入</string>
+    <string name="toast_SlideLeft_animation">左侧滑入</string>
+    <string name="toast_Xylon_animation">Xylon 动画</string>
+    <string name="toast_Toko_animation">Toko 动画</string>
+    <string name="toast_Tn_animation">Tn 动画</string>
+    <string name="toast_Honami_animation">Honami 动画</string>
+    <string name="toast_FastFade_animation">快速淡入淡出</string>
+    <string name="toast_GrowFade_animation">放大淡入淡出</string>
+    <string name="toast_GrowFadeCenter_animation">中部放大淡入淡出</string>
+    <string name="toast_GrowFadeBottom_animation">底部放大淡入淡出</string>
+    <string name="toast_Translucent_animation">半透明</string>
+    <string name="toast_SlideLeftRight_animation">从左到右滑动</string>
+    <string name="toast_SlideRightLeft_animation">从右到左滑动</string>
+
+    <!-- IME animations -->
+    <string name="animation_settings_reset_message">重置所有动画到默认值？</string>
+    <string name="animation_duration_summary">设置时间</string>
+    <string name="animation_fade">淡入淡出</string>
+    <string name="animation_slide_right">右侧滑入</string>
+    <string name="animation_slide_left">左侧滑入</string>
+    <string name="animation_slide_right_no_fade">右侧滑入 (不淡入淡出)</string>
+    <string name="animation_slide_left_no_fade">左侧滑入 (不淡入淡出)</string>
+    <string name="animation_slide_up">滑入底部</string>
+    <string name="animation_slide_down">滑入顶部</string>
+    <string name="animation_translucent">半透明</string>
+    <string name="animation_grow_shrink">放大 (顶部)</string>
+    <string name="animation_grow_shrink_center">放大 (中部)</string>
+    <string name="animation_grow_shrink_bottom">放大 (底部)</string>
+    <string name="animation_grow_shrink_left">放大 (左侧)</string>
+    <string name="animation_grow_shrink_right">放大 (右侧)</string>
+    <string name="animation_random">随机</string>
+    <string name="ime_animation_title">输入法动画</string>
+    <string name="ime_animation_summary">设置键盘动画</string>
+    <string name="ime_animation_test_title">在这里测试输入法动画</string>
+    <string name="ime_enter_animation_title">进入动画</string>
+    <string name="ime_exit_animation_title">退出动画</string>
+    <string name="ime_interpolator_title">插值器</string>
+    <string name="ime_duration_title">输入法持续时间</string>
+
+    <!-- Smooth ProgressBar -->
+    <string name="progressbar_title">自定义进度条</string>
+    <string name="progressbar_mirror_title">镜像模式</string>
+    <string name="progressbar_reverse_title">反向</string>
+    <string name="progressbar_speed_title">速度</string>
+    <string name="progressbar_width_title">宽度</string>
+    <string name="progressbar_length_title">分隔长度</string>
+    <string name="progressbar_count_title">节数</string>
+    <string name="progressbar_color_1_title">颜色 1</string>
+    <string name="progressbar_color_2_title">颜色 2</string>
+    <string name="progressbar_color_3_title">颜色 3</string>
+    <string name="progressbar_color_4_title">颜色 4</string>
+    <string name="sample_progressbar_text">进度条预览：</string>
+    <string name="progressbar_reset_message">重置进度条样式到默认值？</string>
+
+    <!-- Custom Overscroll Settings -->
+    <string name="ui_overscroll_title">自定义超额滚动</string>
+    <string name="overscroll_glow_title">过度滚动颜色</string>
+
+    <!-- Custom Overscroll Settings -->
+    <string name="ui_overscroll_title">设置</string>
+    <string name="overscroll_glow_title">过度滚动颜色</string>
+    <string name="edge_effect_title">边缘发光效果</string>
+    <string name="bounce_effect_title">反弹效果</string>
+    <string name="none_effect_title">没有</string>
+    <string name="extra_heavy_title">极重</string>
+    <string name="heavy_title">重度</string>
+    <string name="medium_title">一般</string>
+    <string name="light_title">轻度</string>
+    <string name="extra_light_title">极轻微</string>
+    <string name="overscroll_title">过度滚动效果</string>
+    <string name="overscroll_summary">选择滚动物体超越有效范围时效果</string>
+    <string name="overscroll_weight_title">过度滚动重量</string>
+    <string name="overscroll_weight_summary">选择滚动物重量</string>
 </resources>
