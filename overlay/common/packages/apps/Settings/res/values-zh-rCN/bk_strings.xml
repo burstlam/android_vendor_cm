@@ -242,23 +242,6 @@
     <string name="custom_carrier_label_notset">当前没有设置运营商名称</string>
     <string name="status_bar_carrier_color">自定义颜色</string>
 
-    <!-- Animation Controls
-    <string name="title_animation_controls">动画控制器</string>
-    <string name="activity_open_title">窗口打开动画</string>
-    <string name="activity_close_title">窗口关闭动画</string>
-    <string name="task_open_title">任务打开动画</string>
-    <string name="task_close_title">任务关闭动画</string>
-    <string name="task_move_to_front_title">前进动画</string>
-    <string name="task_move_to_back_title">后退动画</string>
-    <string name="wallpaper_open_title">壁纸打开动画</string>
-    <string name="wallpaper_close_title">壁纸关闭动画</string>
-    <string name="wallpaper_intra_open_title">壁纸内打开动画</string>
-    <string name="wallpaper_intra_close_title">壁纸内关闭动画</string>
-    <string name="animation_duration_title">动画时间</string>
-    <string name="title_animation_no_override">防止应用程序覆盖</string>
-    <string name="summary_animation_no_override">防止应用程序自带的动画效果替换您的配置。</string>
-    <string name="animation_duration_default">默认</string> -->
-
     <!-- Halo -->
     <string name="halo_settings_title">HALO 设置</string>
     <string name="halo_behavior_title">Halo 行为</string>
@@ -1211,6 +1194,22 @@ PA版本是全屏助手，简洁美观的方式在全屏模式中提供基本按
     <string name="telo_radio_go_3g_unlock_title">优先连接3G</string>
     <string name="telo_radio_go_3g_unlock_summary">解锁恢复3G连接.</string>
 
+    <!-- Animation Controls -->
+    <string name="title_animation_controls">动画控制器</string>
+    <string name="activity_open_title">窗口打开动画</string>
+    <string name="activity_close_title">窗口关闭动画</string>
+    <string name="task_open_title">任务打开动画</string>
+    <string name="task_close_title">任务关闭动画</string>
+    <string name="task_move_to_front_title">前进动画</string>
+    <string name="task_move_to_back_title">后退动画</string>
+    <string name="wallpaper_open_title">壁纸打开动画</string>
+    <string name="wallpaper_close_title">壁纸关闭动画</string>
+    <string name="wallpaper_intra_open_title">壁纸内打开动画</string>
+    <string name="wallpaper_intra_close_title">壁纸内关闭动画</string>
+    <string name="animation_duration_title">动画时间</string>
+    <string name="title_animation_no_override">防止应用程序覆盖</string>
+    <string name="summary_animation_no_override">防止应用程序自带的动画效果替换您的配置。</string>
+    <string name="animation_duration_default">默认</string>
 
     <!-- ListView animation -->
     <string name="interface_settings_animation_title">动画选项</string>
@@ -1361,4 +1360,15 @@ PA版本是全屏助手，简洁美观的方式在全屏模式中提供基本按
     <string name="overscroll_summary">选择滚动物体超越有效范围时效果</string>
     <string name="overscroll_weight_title">过度滚动重量</string>
     <string name="overscroll_weight_summary">选择滚动物重量</string>
+
+    <!-- Force Multi Pane-->
+    <string name="force_multi_pane">强制分页显示</string>
+    <string name="force_multi_pane_summary">强制在设置界面使用平板分页方式显示</string>
+
+    <!--StatusBar Color -->
+    <string name="status_bar_wifi_color">Wifi 图示色彩</string>
+    <string name="status_bar_data_color">数据图示色彩</string>
+    <string name="status_bar_airplain_color">飞行模式图示色彩</string>
+    <string name="status_bar_volume_color">音量模式图示色彩</string>
+    <string name="reset_default_message">重置所有设置到系统默认值?</string>
 </resources>

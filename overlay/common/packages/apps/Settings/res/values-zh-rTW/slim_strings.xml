@@ -405,6 +405,9 @@
     <string name="battery_bolt_color">充電圖示色彩</string>
     <string name="battery_text_charging_color">充電時百分比字檔色彩</string>
     <string name="battery_style_reset_message">重置所有電量圖示色彩?</string>
+    <string name="battery_status_icon_percentage_jb">圖像和百分比 (JB 風格)</string>
+    <string name="battery_status_gone">不顯示</string>
+    <string name="battery_circle_charging_color">圓環充電色彩</string>
 
     <!-- Category title for power sound notification specific Settings.
          [CHAR LIMIT=40] -->
@@ -833,10 +836,11 @@
 
     <!-- QuickSettings: Smart Pulldown -->
     <string name="smart_pulldown_title">智能下拉</string>
-    <string name="smart_pulldown_summary">當沒有 %1$s 的通知內容時，默認打開磁貼開關</string>
+    <string name="smart_pulldown_summary">當 %1$s 通知信息出現時，默認打開磁貼開關</string>
     <string name="smart_pulldown_off">關閉</string>
-    <string name="smart_pulldown_dismissable">可取消</string>
-    <string name="smart_pulldown_persistent">常駐</string>
+    <string name="smart_pulldown_dismissable">沒有可取消</string>
+    <string name="smart_pulldown_persistent">沒有常駐</string>
+    <string name="smart_pulldown_all">任何</string>
 
     <!-- tap-to-wake -->
     <string name="double_tap_to_wake_title">雙擊喚醒</string>

@@ -153,7 +153,7 @@
     <string name="quick_settings_lte_off">LTE 關閉</string>
     <string name="quick_settings_volume">音量</string>
     <string name="quick_settings_expanded_desktop">全屏模式</string>
-    <string name="quick_settings_expanded_desktop_off">正常顯常</string>
+    <string name="quick_settings_expanded_desktop_off">正常顯示</string>
     <string name="quick_settings_music_play">播放</string>
     <string name="quick_settings_music_pause">暫停</string>
     <string name="quick_settings_music_schedule_title">睡眠計時器</string>
