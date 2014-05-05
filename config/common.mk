@@ -172,14 +172,12 @@ PRODUCT_PACKAGES += \
     DSPManager \
     libcyanogen-dsp \
     audio_effects.conf \
-    CMWallpapers \
     Apollo \
     LockClock \
 
 # Extra Optional packages
 PRODUCT_PACKAGES += \
     BluetoothExt \
-    RootExplorer \
     DashClock \
     ScreenRecorder \
     libscreenrecorder \
